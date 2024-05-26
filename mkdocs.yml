@@ -1,9 +1,8 @@
 site_name: RSE-Software Entwicklungs Leitlinien
-site_url: https://luepges.github.io/RSE-software-entwicklungs-leitlinien
+site_url: https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien
 theme:
   name: material
   features:
-#    - navigation.top
     - navigation.footer
 
 copyright: '&copy; Software Guidelines workin group, CC0 1.0 deed'

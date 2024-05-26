@@ -1,5 +1,5 @@
 site_name: RSE-Website - Insitut für angewandte Beispiele
-site_url: https://luepges.github.io/RSE-software-entwicklungs-leitlinien/website_template
+site_url: https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien/website_template
 theme:
   name: material
   features:

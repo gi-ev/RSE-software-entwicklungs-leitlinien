@@ -40,8 +40,8 @@ We would also appreciate feedback on which university, college, or research cent
 
 # RSE-Website template
 
-A template for a RSE website can be found [here](website_template/).
+A template for an institute's RSE website can be found [here](website_template/).
 
 # Glossary
 
-A glossary (currently only in German) to the terms used in the policy template can be found [here](glossar.md).
+A glossary (currently only available in German) to the terms used in the policy template can be found [here](glossar.md).
