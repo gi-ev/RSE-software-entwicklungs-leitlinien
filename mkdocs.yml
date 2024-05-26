@@ -1,5 +1,5 @@
 site_name: RSE-Software Entwicklungs Leitlinien
-site_url: https://mydomain.org/mysite
+site_url: https://luepges.github.io/RSE-software-entwicklungs-leitlinien
 theme:
   name: material
   features:
