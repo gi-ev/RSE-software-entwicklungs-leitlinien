@@ -40,7 +40,7 @@ We would also appreciate feedback on which university, college, or research cent
 
 # RSE-Website template
 
-needs to be set up - as GitHub pages? Or complete WS? If the latter, who will host it?
+A template for a RSE website can be found [here](website_template/).
 
 # Glossary
 
