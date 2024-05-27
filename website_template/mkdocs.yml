@@ -1,0 +1,21 @@
+site_name: RSE-Website - Insitut für angewandte Beispiele
+site_url: https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien/website_template
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.footer
+
+copyright: 'Example RSE Website - &copy; Software Guidelines workin group, CC0 1.0 deed'
+    
+markdown_extensions:
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/gi-ev/RSE-software-entwicklungs-leitlinien
+
+# page tree
+nav:
+  - Home: index.md
