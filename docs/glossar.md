@@ -1,2 +1,2 @@
 
-TODO
+--8<-- "glossary.md"
