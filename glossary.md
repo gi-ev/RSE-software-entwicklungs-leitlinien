@@ -96,6 +96,8 @@ ToDo
 ### Datenstruktur:
 Eine Datenstruktur beschreibt eine konkrete Organisations- und Speicherungsform von Daten als auch mögliche Verhaltensweisen auf Basis dieser Struktur. Siehe auch https://de.wikipedia.org/wiki/Datenstruktur 
 
+### de-RSE
+de-RSE e.V. - Gesellschaft für Forschungssoftware
 
 ### Design Pattern:
 ToDo
@@ -119,7 +121,10 @@ ToDo
 ToDo
 Evolution / Evolutionäre Weiterentwicklung ist die Sammlung aller Aktivitäten zur Modifikation von Software in Form einer Gemeinschaftsleistung um neue Funktionen, Algorithmen, Modelle, Daten und andere Formen von ausführbaren Wissen hinzuzufügen, die Ausführungseffizienz zu optimieren, die Nutzungsoptionen zu verallgemeinern, oder vorhandene Fehler zu beheben. Evolutionäre Weiterentwicklung ist zeitlich aufwändig und bedarf anderer methodischer Vorgehensweisen wie die initiale Erstellung.
 Exportkontrolle: Sobald Personen aus Staaten außerhalb der EU oder gleichgestellten Staaten (UK, USA, JP,…) am Projekt beteiligt sein sollen, kann eine außenwirtschaftsrechtliche Prüfung des Projekts erforderlich sein. Ob dies für das eigene Projekt notwendig ist, kann [[in Absprache mit Abteilung … | anhand einer Checkliste auf der RSE-Webseite]] ermittelt werden.
-FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden zuerst für Forschungsdaten entwickelt und später [für andere Forschungsergebnisse wie Software neu gefasst](https://doi.org/10.15497/RDA00068). Die FAIR Prinzipien für Forschungssoftware sollen sowohl für die Software als auch für ihre Metadaten wie Dokumentation gelten.
+[FAIR](#fair)-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden zuerst für Forschungsdaten entwickelt und später [für andere Forschungsergebnisse wie Software neu gefasst](https://doi.org/10.15497/RDA00068). Die FAIR Prinzipien für Forschungssoftware sollen sowohl für die Software als auch für ihre Metadaten wie Dokumentation gelten.
+
+### FAIR
+Findable, Accessible, Interoperable, Reusable 
 
 ### Feature:
 ToDo
@@ -141,6 +146,9 @@ ToDo
 
 ### Forschungsvorhaben:
 ToDo
+
+### GI
+Gesellschaft für Informatik e.V. 
 
 ### Git:
 Git ist ein Versionskontrollsystem, mit dem man verfolgen kann, wer wann welche Änderungen am Code vorgenommen hat. Git bietet Optionen zur einfachen Aktualisierung einer freigegebenen oder öffentlichen Version eines Codes auf [GitHub](https://github.com/).
@@ -250,7 +258,7 @@ Ein Repository ist ein zentraler Speicherort, in dem Daten gespeichert und verwa
 ### (Code-)Repository:
 Ein (Code-)Repository ist ein Archiv für den Code, an dem gearbeitet wird. Neben dem Code selbst können Sie in Ihrem Repository auch Dinge wie Dokumentation, Notizen, Webseiten und andere Dinge aufbewahren. Ein Code-Repository ist für jedes erfolgreiche Softwareentwicklungsprojekt erforderlich.
 
-### Requirements Engineering:
+### Requirements Engineering (RE):
 ToDo
 ### Research Software Engineering (RSE):
 adressiert die Anwendung von Methoden, Techniken und Best Practices des Software Engineering bei der Entwicklung von Forschungssoftware.  (Definition nach Wikipedia)
