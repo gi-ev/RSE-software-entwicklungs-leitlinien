@@ -32,6 +32,9 @@ ToDo
 ### Ausführbarkeit (von Software):
 ToDo
 
+### Ausführungseffizienz (von Software)
+Eigenschaft von Software bzgl. des Ressourcenverbrauchs (bspw. Speicher, Rechenzeit)
+
 ### Best Practices:
 ToDo
 
@@ -113,6 +116,9 @@ ToDo
 
 ### Editor:
 ToDo
+
+### Effizienz (der Softwareerstellung)
+Eigenschaft der Softwareerstellung bezogen auf die inkludierten Prozesse bzw. beteiligten Personen im Sinne von Ressourcenverbrauch (bspw. Arbeitszeit)
 
 ### Entwicklungsprozess:
 ToDo
@@ -389,7 +395,7 @@ Analog zu Forschungsdaten und wissenschaftlichen Texten ist auch Software ein Er
 ### (Software-) Publikation:
 Analog zu Forschungsdaten und wissenschaftlichen Texten ist auch Software ein Ergebnis wissenschaftlicher Arbeit, sodass sie als wissenschaftliche Publikation einem breiten Publikum bekannt gemacht werden kann. Nichtsdestotrotz kann der Zugang zur Software aus der Publikation analog zu Forschungsdaten eingeschränkt sein. Wie Forschungsdaten und Textpublikationen beinhaltet eine Software-Publikation Metadaten, mit denen sie auffindbar und zitierbar ist.
 
-### Software Quality:
+### Software Qualität:
 ToDo
 
 ### Software-Stack:
