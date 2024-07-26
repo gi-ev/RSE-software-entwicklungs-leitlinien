@@ -111,8 +111,8 @@ DevOps beschreibt ein Kofferwort aus Development (dt. Softwareentwicklung) und O
 ### Dokumentation:
 Eine Software-Dokumentation erklärt Nutzern/Anwendern und Entwicklern, wie die Software installiert, genutzt und modifiziert werden kann, sowie den Anwendungsbereich und Funktionsweise der Software. Eine Dokumentation kann verschiedene Ausprägungen annehmen, angefangen von Kommentaren im Code zu umfangreichen Tutorials und Handbüchern. Es existieren Tools zur automatisierten Erstellung von Dokumentation.
 
-### Dual Licensing:
-ToDo
+### Dual Licensing / Duale Lizenz:
+Die Software wird z.B. unter einer Copyleft und einer kommerziellen Lizenz veröffentlicht. Möchte der Nutzer das Copyleft umgehen, muss er eine Lizenz käuflich erwerben. Verwandte Konzepte sind Functional Source Licensing und Open Core.
 
 ### Editor:
 ToDo
@@ -152,6 +152,9 @@ ToDo
 
 ### Forschungsvorhaben:
 ToDo
+
+### Functional Source Licensing
+Einen Schutz eigener wirtschaftlicher Interessen trotz Open Source Lizenz kann die [Functional Source License](https://fsl.software/) bieten.
 
 ### GI
 Gesellschaft für Informatik e.V. 
@@ -204,6 +207,9 @@ ToDo
 Sobald Software-Entwickler:innen sich in einem Arbeits- und Dienstverhältnis mit [[der Universität | Hochschule | dem Forschungszentrum]] befinden, liegen die Nutzungs- und Verwertungsrechte gemäß Urheberrecht automatisch [[der Universität | Hochschule | dem Forschungszentrum]]. Spezielle Regelungen sind daher bei der geplanten Einbeziehung Dritter, die keinen Arbeitsvertrag o. Ä. mit dem Forschungszentrum haben, vor Projektstart zu treffen. Externe Beiträge können bei Bedarf über ein Contributor License Agreement eingebunden werden. Eine geprüfte Vorlage steht dazu zur Verfügung. Projektanträge und Konsortialverträge beschreiben den Umgang mit Nutzungs- und Verwertungsrechten.
 ### Nutzungs- und Verwertungsrecht:
 Sobald Software-Entwickler:innen sich in einem Arbeits- und Dienstverhältnis mit dem Forschungszentrum Jülich befinden, liegen die Nutzungs- und Verwertungsrechte gemäß Urheberrecht automatisch beim Forschungszentrum. Spezielle Regelungen sind daher bei der geplanten Einbeziehung Dritter, die keinen Arbeitsvertrag o. Ä. mit dem Forschungszentrum haben, vor Projektstart zu treffen. Externe Beiträge können bei Bedarf über ein Contributor License Agreement eingebunden werden. Das Forschungszentrum Jülich stellt eine geprüfte Vorlage über die RSE-Portal zur Verfügung, welche den externen Beitragenden vorgelegt werden kann.
+
+### Open Core
+Eine bzgl. des Funktionsumfangs reduzierte Version der Software wird unter einer Open Source Lizenz veröffentlicht. Die Gesamtsoftware wird unter einer propritären Lizenz veröffentlicht.
 
 ### Open Science:
 ToDo
