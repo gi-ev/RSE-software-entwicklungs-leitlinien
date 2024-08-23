@@ -6,10 +6,15 @@ theme:
     - navigation.footer
 
 copyright: '&copy; Software Guidelines workin group, CC0 1.0 deed'
-    
+
 markdown_extensions:
   - attr_list
-    
+  - pymdownx.snippets:
+      check_paths: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
 # page tree
 nav:
   - Home: index.md
