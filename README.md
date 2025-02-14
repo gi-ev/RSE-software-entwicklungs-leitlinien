@@ -27,4 +27,4 @@ needs to be set up - as GitHub pages? Or complete WS? If the latter, who will ho
 
 # Glossar (currently only in German)
 
-Please fill in the [glossary](glossary.md).
+Please fill in the [glossary](./docs/glossary.md).
