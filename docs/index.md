@@ -19,7 +19,7 @@ It is planned to regularly update these guidelines and incorporate new insights.
 
 The authors propose these guidelines as a template to aid universities, colleges, and research institutions in the adaptation of fundamental policies and recommendations for research projects involving research software.
 
-[View Guidelines](https://todo){.md-button}
+[View Guidelines](https://doi.org/10.18420/2025-gi_de-rse){.md-button} (DOI: 10.18420/2025-gi_de-rse)
 
 # Purpose
 
