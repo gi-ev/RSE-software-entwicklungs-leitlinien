@@ -74,7 +74,7 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 &ensp;[3.1. Einleitung](#3.1.-einleitung)
 
-&ensp;&ensp;[3.1.1. Forschungssoftware: Demonstrator, Produkt, Infrastruktur](#3.1.1-forschungssoftware:-demonstrator,-produkt,-infrastruktur)
+&ensp;&ensp;[3.1.1. Forschungssoftware: Demonstrator, Produkt, Infrastruktur](#3.1.1-forschungssoftware--demonstrator--produkt--infrastruktur)
 
 &ensp;[3.2. Kategorisierung von Forschungssoftware](#3.2.-kategorisierung-von-forschungssoftware)
 
@@ -179,11 +179,11 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 [Referenzen](#referenzen)
 
-[Anhang A: Kategorisierungsmöglichkeiten](#anhang-a:-kategorisierungsmöglichkeiten)
+[Anhang A: Kategorisierungsmöglichkeiten](#anhang-a--kategorisierungsmöglichkeiten)
 
-[Anhang B: Checkliste für die Weitergabe von Software](#anhang-b:-checkliste-für-die-weitergabe-von-software)
+[Anhang B: Checkliste für die Weitergabe von Software](#anhang-b--checkliste-für-die-weitergabe-von-software)
 
-[Anhang C: Grundlagen und Mitwirkende](#anhang-c:-grundlagen-und-mitwirkende)
+[Anhang C: Grundlagen und Mitwirkende](#anhang-c--grundlagen-und-mitwirkende)
 
 <a id="präambel:-zweck-dieser-muster-leitlinie"></a>
 # Präambel: Zweck dieser Muster-Leitlinie
@@ -542,7 +542,7 @@ Schritt 3: Soll-TRL festlegen oder Vorgabe vom Fördergeber übernehmen und dabe
 
 Schritt 4: Gewünschte Anwendungsklasse identifizieren. (siehe 3.2.4)
 
-<a id="3.1.1-forschungssoftware:-demonstrator,-produkt,-infrastruktur"></a>
+<a id="3.1.1-forschungssoftware--demonstrator--produkt--infrastruktur"></a>
 ### 3.1.1. Forschungssoftware: Demonstrator, Produkt, Infrastruktur
 [Zurück zum Inhalt](#inhaltsverzeichnis)
 
@@ -1642,7 +1642,7 @@ Technical report, 2022\. [https://hdl.handle.net/2128/33259](https://hdl.handle.
 
 \[YGJ24\]	Yo Yehudi, Carole Goble und Caroline Jay. Individual context-free online community health indicators fail to identify open source software sustainability. 2024\. [https://doi.org/10.48550/arXiv.2309.12120](https://doi.org/10.48550/arXiv.2309.12120) (Preprint)
 
-<a id="anhang-a:-kategorisierungsmöglichkeiten"></a>
+<a id="anhang-a--kategorisierungsmöglichkeiten"></a>
 # Anhang A: Kategorisierungsmöglichkeiten
 [Zurück zum Inhalt](#inhaltsverzeichnis)
 
@@ -1676,7 +1676,7 @@ Eine weitere wichtige Kategorisierung adressiert die Einsatzdomäne der Software
 
 Eine feingranulare Kategorisierung erfüllt weitere Zwecke über die Auswahl geeigneter Entwicklungsmethoden hinaus. Sie ermöglicht eine präzisere Wertschätzung der Software und ihrer Entwickler. Zudem erleichtert sie die Beurteilung von extern entwickelter Forschungssoftware und unterstützt Entscheidungsprozesse bei der Auswahl solcher Software. Darüber hinaus trägt die Kategorisierung dazu bei, die langfristig benötigten Ressourcen für die Entwicklung besser einzuschätzen.
 
-<a id="anhang-b:-checkliste-für-die-weitergabe-von-software"></a>
+<a id="anhang-b--checkliste-für-die-weitergabe-von-software"></a>
 # Anhang B: Checkliste für die Weitergabe von Software
 [Zurück zum Inhalt](#inhaltsverzeichnis)
 
@@ -1737,7 +1737,7 @@ Software unterliegt unter Umständen einer Exportkontrolle, wenn diese in kritis
 
 Kann ein Teil der Fragen nicht befriedigend beantwortet werden, so empfiehlt sich eine Beratung durch die auf der RSE-Webseite \[\[der Universität \| Hochschule \| des Forschungszentrums\]\] genannten Ansprechpartner.
 
-<a id="anhang-c:-grundlagen-und-mitwirkende"></a>
+<a id="anhang-c--grundlagen-und-mitwirkende"></a>
 # Anhang C: Grundlagen und Mitwirkende
 [Zurück zum Inhalt](#inhaltsverzeichnis)
 
