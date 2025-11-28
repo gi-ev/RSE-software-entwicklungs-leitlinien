@@ -21,7 +21,7 @@ The authors propose these guidelines as a template to aid universities, colleges
 
 [View Guidelines](https://doi.org/10.18420/2025-gi_de-rse){.md-button} (DOI: 10.18420/2025-gi_de-rse)
 
-### Current Version of the Guidelines
+### Current Versions of the Guideline
 
 - [German Version v1.0](RSE_Leitlinien_Softwareentwicklung.md)
 - [English Version v1.0](RSE_Leitlinien_Softwareentwicklung-en-US.md)
