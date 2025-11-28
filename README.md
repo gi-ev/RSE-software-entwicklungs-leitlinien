@@ -8,6 +8,15 @@ This results in consequences both for the leadership to provide organizational s
 
 The authors propose these guidelines as a template to aid universities, colleges, and research institutions in the adaptation of fundamental policies and recommendations for research projects involving research software.
 
+[View Guidelines](https://doi.org/10.18420/2025-gi_de-rse) (DOI: 10.18420/2025-gi_de-rse)
+
+### Current Versions of the Guideline
+
+- [German Version v1.0](RSE_Leitlinien_Softwareentwicklung.md)
+- [English Version v1.0](RSE_Leitlinien_Softwareentwicklung-en-US.md)
+
+- [Known Issues and Features to be added in the subsequent version 1.1](https://github.com/gi-ev/RSE-software-entwicklungs-leitlinien/issues?q=is%3Aissue%20state%3Aopen%20label%3Av1.1)
+
 # Purpose
 
 This guidelines template proposes the establishment of specific guidelines within universities, colleges, and research institutions. It aims to provide concrete assistance for defining their own guidelines while allowing for flexibility to accommodate the different cultures in various disciplines and research institutions through explicit variability for refinement.
@@ -23,7 +32,7 @@ We would also appreciate feedback on which university, college, or research cent
 
 # RSE-Website template
 
-needs to be set up - as GitHub pages? Or complete WS? If the latter, who will host it?
+A template for an institute's RSE website can be found [here](website_template/).
 
 # Glossar (currently only in German)
 
