@@ -1,13 +1,13 @@
 ### Abgeleitete Werke:
 Auch beim Einsatz bzw. der Einbindung von Code, dessen Nutzungsrechte nicht (ausschließlich) beim Forschungszentrum Jülich, sondern bei Dritten, z.B. Kooperationspartnern, liegen (Fremdsoftware) müssen Rechte durch den Urheber bzw. dessen Arbeitgeber eingeräumt werden. Dabei sind auch zwingend die Lizenzbedingungen der eingesetzten (Open-Source) Software zu beachten, da eine Nichtbeachtung eine Vertragsverletzung darstellt und zu Schadensersatzforderungen führen kann. Dies gilt auch, wenn lediglich Programmbestandteile oder Teilsequenzen in eine eigene Software integriert werden. Dann bedarf es einer intensiven Prüfung, inwieweit die verschiedenen Lizenzen der zu integrierenden Drittsoftware inkompatible Regelungen enthalten. Das kann dazu führen, dass die eigene Software nicht unter der beabsichtigten OpenSource-Lizenz veröffentlicht werden kann. Zudem kann die Open-Source-Lizenz der eingesetzten Software erlöschen, wenn die Lizenzbedingungen nicht eingehalten werden.
 ### Abgeleitete Werke (Derived Software):
-Eigene Software nutzt zumeist fremde Softwarekomponenten, -Bibliotheken, -Infrastrukturen und gilt daher als “abgeleitetes Werk”. Die Lizenzbedingungen fremder Software  und insbesondere auch von Open-Source-Software sind zu berücksichtigen, da eine Nichtbeachtung eine Vertragsverletzung darstellt und zu Schadensersatzforderungen führen kann. Dies gilt auch, wenn lediglich Programmbestandteile oder Teilsequenzen in eine eigene Software integriert werden. Das kann dazu führen, dass die eigene Software nicht unter der beabsichtigten OpenSource-Lizenz veröffentlicht werden kann, sondern eine vorgegebene Lizenz zu nehmen ist. Anmerkung: Es besteht jedoch die technische Möglichkeit, die eigene Software als unabhängiges Delta zu lizenzieren, das allerdings nur funktionsfähig ist, wenn die Nutzer eine entsprechende Lizenz der darunterliegenden Software selbst erwerben. 
+Eigene Software nutzt zumeist fremde Softwarekomponenten, -Bibliotheken, -Infrastrukturen und gilt daher als “abgeleitetes Werk”. Die Lizenzbedingungen fremder Software  und insbesondere auch von Open-Source-Software sind zu berücksichtigen, da eine Nichtbeachtung eine Vertragsverletzung darstellt und zu Schadensersatzforderungen führen kann. Dies gilt auch, wenn lediglich Programmbestandteile oder Teilsequenzen in eine eigene Software integriert werden. Das kann dazu führen, dass die eigene Software nicht unter der beabsichtigten OpenSource-Lizenz veröffentlicht werden kann, sondern eine vorgegebene Lizenz zu nehmen ist. Anmerkung: Es besteht jedoch die technische Möglichkeit, die eigene Software als unabhängiges Delta zu lizenzieren, das allerdings nur funktionsfähig ist, wenn die Nutzer eine entsprechende Lizenz der darunterliegenden Software selbst erwerben.
 
 ### Agile Softwareentwicklung:
 Agile Softwareentwicklung ist ein Entwicklungsprozess, der einen zeitnahen Einsatz der Software zum Ziel hat. Die Software wird iterativ entwickelt, wobei in jedem Entwicklungsschritt unter Rücksprache mit den Nutzern die kurz- und langfristige Zielsetzung überprüft und gegebenenfalls angepasst wird. In der agilen Entwicklung besetzen die Mitglieder des Entwicklerteams verschiedene Rollen, wobei in dem speziellen Fall der Entwicklung von Forschungssoftware oft eine Person mehrere Rollen belegt.
 
 ### AI:
-Artifical Intelligence (dt. Künstliche Intelligenz) steht für intelligentes Handeln durch Maschinen, und bezeichnet ein Teilgebiet der Informatik, welches auf Automatisierung und maschinellem Lernen basiert. 
+Artifical Intelligence (dt. Künstliche Intelligenz) steht für intelligentes Handeln durch Maschinen, und bezeichnet ein Teilgebiet der Informatik, welches auf Automatisierung und maschinellem Lernen basiert.
 
 ### Algorithmus:
 Ein Algorithmus ist eine eindeutige Beschreibung von Handlungen zur Lösungen von Problemen bzw. einer Menge von Problemen. Siehe auch [hier](https://de.wikipedia.org/wiki/Algorithmus).
@@ -54,7 +54,7 @@ ToDo
 Ein Branch beschreibt in einem Versionskontrollsystem einen separaten Entwicklungs- und Versionierungsstrang.
 
 ### Bug (in der Softwareentwicklung):
-Ein Bug beschreibt einen Softwarefehler, welcher sich durch unterschiedliche Symptome bspw. dem Absturz der Software, Performance-Probleme, sicherheitskritischen Lücken bemerkbar machen kann. Siehe auch https://de.wikipedia.org/wiki/Programmfehler 
+Ein Bug beschreibt einen Softwarefehler, welcher sich durch unterschiedliche Symptome bspw. dem Absturz der Software, Performance-Probleme, sicherheitskritischen Lücken bemerkbar machen kann. Siehe auch https://de.wikipedia.org/wiki/Programmfehler
 
 ### Bug-Fixing (in der Softwareentwicklung)
 Bug-Fixing beschreibt den manuellen oder automatisierten Prozess durch Entwicklende einen Bug so zu beheben, sodass die negativen Symptome nicht mehr bestehen und keine neuen Bugs integriert werden.
@@ -76,10 +76,10 @@ Ein Contributor Agreement oder Contributor License Agreement (CLA), ist ein Doku
 Contributor Agreement: Ein Contributor Agreement oder Contributor License Agreement (CLA), ist ein Dokument, in dem die Bedingungen beschrieben sind, unter denen geistiges Eigentum eines Contributors zu einem Projekt oder Vorhaben beigetragen werden kann. Zumeist handelt es sich um ein Software-Projekt- unter einer Open-Source-Lizenz. [[Die Universität | Hochschule | das Forschungszentrum]] stellt eine geprüfte Vorlage auf [[der RSE-Webseite]] zur Verfügung, welche den externen Beitragenden, zum Beispiel Studierenden, vorgelegt werden sollte.
 
 ### Commit (in der Versionierung):
-Der Begriff Commit basiert auf dem Versionskontrollsystem git und beschreibt allgemein das Speichern von Änderungen von Daten in einem Repository und somit die Erstellung von Softwareversionen. Siehe auch https://de.wikipedia.org/wiki/Commit 
+Der Begriff Commit basiert auf dem Versionskontrollsystem git und beschreibt allgemein das Speichern von Änderungen von Daten in einem Repository und somit die Erstellung von Softwareversionen. Siehe auch https://de.wikipedia.org/wiki/Commit
 
 ### Compiler:
-Ein Compiler beschreibt ein Programm, das Quellcode von einer höheren Programmiersprache in eine maschinenlesbarer(e) Sprache umwandelt. Siehe auch https://de.wikipedia.org/wiki/Compiler 
+Ein Compiler beschreibt ein Programm, das Quellcode von einer höheren Programmiersprache in eine maschinenlesbarer(e) Sprache umwandelt. Siehe auch https://de.wikipedia.org/wiki/Compiler
 
 ### Continuous Integration/Continuous Delivery (CI/CD):
 CI/CD bezeichnet den kontinuierlichen Einbau von Aenderungen in die Produktionsversion der Software (CI), sowie das automatische Deployment der neuesten Version (CD). Hierdurch werden neueste Entwicklungen und Korrekturen der Software zeitnah an den Nutzer weitergegeben, gleichzeitig aber der Produktionszustand der Software nicht unterbrochen.
@@ -97,7 +97,7 @@ ToDo
 ToDo
 
 ### Datenstruktur:
-Eine Datenstruktur beschreibt eine konkrete Organisations- und Speicherungsform von Daten als auch mögliche Verhaltensweisen auf Basis dieser Struktur. Siehe auch https://de.wikipedia.org/wiki/Datenstruktur 
+Eine Datenstruktur beschreibt eine konkrete Organisations- und Speicherungsform von Daten als auch mögliche Verhaltensweisen auf Basis dieser Struktur. Siehe auch https://de.wikipedia.org/wiki/Datenstruktur
 
 ### de-RSE
 de-RSE e.V. - Gesellschaft für Forschungssoftware
@@ -130,7 +130,7 @@ Exportkontrolle: Sobald Personen aus Staaten außerhalb der EU oder gleichgestel
 [FAIR](#fair)-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden zuerst für Forschungsdaten entwickelt und später [für andere Forschungsergebnisse wie Software neu gefasst](https://doi.org/10.15497/RDA00068). Die FAIR Prinzipien für Forschungssoftware sollen sowohl für die Software als auch für ihre Metadaten wie Dokumentation gelten.
 
 ### FAIR
-Findable, Accessible, Interoperable, Reusable 
+Findable, Accessible, Interoperable, Reusable
 
 ### Feature:
 ToDo
@@ -157,7 +157,7 @@ ToDo
 Einen Schutz eigener wirtschaftlicher Interessen trotz Open Source Lizenz kann die [Functional Source License](https://fsl.software/) bieten.
 
 ### GI
-Gesellschaft für Informatik e.V. 
+Gesellschaft für Informatik e.V.
 
 ### Git:
 Git ist ein Versionskontrollsystem, mit dem man verfolgen kann, wer wann welche Änderungen am Code vorgenommen hat. Git bietet Optionen zur einfachen Aktualisierung einer freigegebenen oder öffentlichen Version eines Codes auf [GitHub](https://github.com/).
@@ -203,7 +203,7 @@ ToDo
 ### Nachnutzung:
 ToDo
 
-### Nutzungs- und Verwertungsrecht: 
+### Nutzungs- und Verwertungsrecht:
 Sobald Software-Entwickler:innen sich in einem Arbeits- und Dienstverhältnis mit [[der Universität | Hochschule | dem Forschungszentrum]] befinden, liegen die Nutzungs- und Verwertungsrechte gemäß Urheberrecht automatisch [[der Universität | Hochschule | dem Forschungszentrum]]. Spezielle Regelungen sind daher bei der geplanten Einbeziehung Dritter, die keinen Arbeitsvertrag o. Ä. mit dem Forschungszentrum haben, vor Projektstart zu treffen. Externe Beiträge können bei Bedarf über ein Contributor License Agreement eingebunden werden. Eine geprüfte Vorlage steht dazu zur Verfügung. Projektanträge und Konsortialverträge beschreiben den Umgang mit Nutzungs- und Verwertungsrechten.
 ### Nutzungs- und Verwertungsrecht:
 Sobald Software-Entwickler:innen sich in einem Arbeits- und Dienstverhältnis mit dem Forschungszentrum Jülich befinden, liegen die Nutzungs- und Verwertungsrechte gemäß Urheberrecht automatisch beim Forschungszentrum. Spezielle Regelungen sind daher bei der geplanten Einbeziehung Dritter, die keinen Arbeitsvertrag o. Ä. mit dem Forschungszentrum haben, vor Projektstart zu treffen. Externe Beiträge können bei Bedarf über ein Contributor License Agreement eingebunden werden. Das Forschungszentrum Jülich stellt eine geprüfte Vorlage über die RSE-Portal zur Verfügung, welche den externen Beitragenden vorgelegt werden kann.
@@ -217,7 +217,7 @@ ToDo
 ### Open Source:
 ToDo
 
-### OSS- Lizenzen: 
+### OSS- Lizenzen:
 Nach allgemeiner Ansicht gibt die Open Source Definition (http://www.opensource.org/docs/osd) korrekt wieder, was in der Open Source Community unter dem Begriff "Open Source Software" verstanden wird. Entscheidendes Kriterium der Definition ist, dass die Lizenz einer Software die umfassende "freie" Nutzung des Programms gestattet und keine Beschränkung der Lizenznehmer oder Verwendungsgebiete vorsieht, also von jedermann zu jedem Zweck genutzt werden darf. Die Lizenzgebührenfreiheit und der offen zugängliche Sourcecode sind dabei wesentliche Voraussetzungen für die freie Nutzbarkeit. Entscheidend ist also stets der [Lizenzvertrag, unter dem eine Software angeboten wird](https://www.ifross.org).
 Open-Source-Lizenz / OSS-Lizenz: Nach allgemeiner Ansicht gibt die Open Source Definition (http://www.opensource.org/docs/osd) korrekt wieder, was in der Open Source Community unter dem Begriff "Open Source Software" verstanden wird. Entscheidendes Kriterium der Definition ist, dass die Lizenz einer Software die umfassende "freie" Nutzung des Programms gestattet und keine Beschränkung der Lizenznehmer oder Verwendungsgebiete vorsieht, also von jedermann zu jedem Zweck genutzt werden darf. Die Lizenzgebührenfreiheit und der offen zugängliche Sourcecode sind dabei wesentliche Voraussetzungen für die freie Nutzbarkeit. Entscheidend ist also stets der Lizenzvertrag, unter dem eine Software angeboten wird. -- Es gibt deutliche Unterschiede in den verfügbaren Freiheiten.
 
@@ -247,7 +247,7 @@ ToDo
 
 ### Proprietäre Lizenzen:
 Der wesentliche Unterschied zwischen proprietären und Open Source Lizenzen ist, dass die proprietäre Lizenz völlig frei gestaltet werden kann und insbesondere die Möglichkeit eröffnet, die Weitergabe von Code vollständig einzuschränken. Zwar verpflichtet die Verwendung einer Open Source Lizenz nicht pauschal zur Weitergabe, allerdings kann einem Dritten gegenüber dieses Recht nicht eingeschränkt werden. Ferner greift die Open Source Lizenz nur dann, wenn der Dritte die Software wieder weitergibt. So wäre z.B. das Anbieten einer Dienstleistung mit der Software ohne Weitergabe dieser ohne weiteres möglich. Eine proprietäre Lizenz wird also dann interessant, wenn man die Weitergabe des Codes an sich oder eine bestimmte Art der Verwendung (kommerzielle Nutzung) einschränken möchte.
-### Proprietäre Lizenz: 
+### Proprietäre Lizenz:
 Eine proprietäre Lizenz ist eine Art von Softwarelizenz, die das Recht zur Nutzung, Modifikation und Weiterverteilung der Software einschränkt. Während Open Source Lizenzen wiederverwendet werden können und dadurch ein gewisses Maß an Standardisierung und Kompatibilität ermöglichen, werden sind proprietäre Lizenz völlig frei zu gestalten. Eine proprietäre Lizenz wird meist dann interessant, wenn man die Weitergabe des Codes an sich oder eine bestimmte Art der Verwendung (kommerzielle Nutzung) einzuschränken ist.
 
 ### Qualitätssicherung:
@@ -265,7 +265,7 @@ Bei einem Release handelt es sich um eine Version einer Software, die Nutzern zu
 ### Reproduzierbarkeit:
 ToDo
 
-### Repository: 
+### Repository:
 Ein Repository ist ein zentraler Speicherort, in dem Daten gespeichert und verwaltet werden. In der Softwareentwicklung bezieht es sich typischerweise auf einen Speicherort, in dem Code, Dokumentation und andere Projektdateien in einer strukturierten Form gehalten werden. Repositories ermöglichen es Entwickler:innen, Änderungen am Code nachzuverfolgen, die Zusammenarbeit zu erleichtern und verschiedene Versionen und Varianten eines Projekts zu verwalten. Populäre Repositories wie GitHub und GitLab bieten neben der zentralen Speicherverwaltung viele weitere Services, wie die Ticketverwaltung, Continuous-Integration, Automatische Überprüfung von Codequalität, die Detektion von Security-Problemen, und vieles mehr. Ein Repository kann auch als Archiv oder zur Software-Veröffentlichung eingesetzt werden.
 ### (Code-)Repository:
 Ein (Code-)Repository ist ein Archiv für den Code, an dem gearbeitet wird. Neben dem Code selbst können Sie in Ihrem Repository auch Dinge wie Dokumentation, Notizen, Webseiten und andere Dinge aufbewahren. Ein Code-Repository ist für jedes erfolgreiche Softwareentwicklungsprojekt erforderlich.
@@ -276,7 +276,7 @@ ToDo
 adressiert die Anwendung von Methoden, Techniken und Best Practices des Software Engineering bei der Entwicklung von Forschungssoftware.  (Definition nach Wikipedia)
 
 ### Research Software Engineer(s) (RSEs):
-### Research Software Engineer(s) 
+### Research Software Engineer(s)
 [hier](https://rse.ac.uk/about; https://www.de-rse.org)
 ToDo: Kurzdefinition geben und nicht nur eine Verlinkung geben
 
@@ -370,7 +370,7 @@ ToDo
 ### Softwarekomponente:
 ToDo
 
-### (Software-) Lebenszyklus: 
+### (Software-) Lebenszyklus:
 Der Lebenszyklus einer Software beschreibt alle wesentlichen Entwicklungsstadien, ausgehend von der Idee und Konzeption, dem Design, über die Entwicklung, Abnahme, Nutzung und Pflege bis hin zur Archivierung und Außerbetriebnahme.
 
 ### (Software-) Maintenance:
@@ -391,12 +391,12 @@ ToDo
 ### (Software-) Pflege:
 ToDo
 
-### Softwareprojekt: 
+### Softwareprojekt:
 Ein Softwareprojekt ist ein komplexes Unterfangen, zumeist von mehreren Personen, das im Rahmen von Zeit, Budget und Personalressourcen einen neuen oder verbesserte Software hervorbringt.
 ### (Software-) Projekt:
 Ein Softwareprojekt ist ein komplexes Unterfangen von zwei oder mehr Personen, das im Rahmen von Zeit, Budget und Personalressourcen einen neuen oder verbesserten Computercode hervorbringt.
 
-### (Software-) Publikation: 
+### (Software-) Publikation:
 Analog zu Forschungsdaten und wissenschaftlichen Texten ist auch Software ein Ergebnis wissenschaftlicher Arbeit, sodass sie als wissenschaftliche Publikation einem breiten Publikum bekannt gemacht werden kann. Nichtsdestotrotz kann der Zugang zur Software aus der Publikation analog zu Forschungsdaten eingeschränkt sein. Wie Forschungsdaten und Textpublikationen beinhaltet eine Software-Publikation Metadaten, mit denen sie auffindbar und zitierbar ist. Anders als Forschungsdaten ist Software aber auch ein lebendes, regelmäßig weiterentwickeltes Objekt, weshalb die Metadaten die jeweils konkreten Versionen jeder verwendeten Komponente, die genutzten externen Komponenten, deren jeweilige Lizenz-Bedingungen und einen Hinweis auf potentielle neuere Versionen beinhaltet.
 ### (Software-) Publikation:
 Analog zu Forschungsdaten und wissenschaftlichen Texten ist auch Software ein Ergebnis wissenschaftlicher Arbeit, sodass sie als wissenschaftliche Publikation einem breiten Publikum bekannt gemacht werden kann. Nichtsdestotrotz kann der Zugang zur Software aus der Publikation analog zu Forschungsdaten eingeschränkt sein. Wie Forschungsdaten und Textpublikationen beinhaltet eine Software-Publikation Metadaten, mit denen sie auffindbar und zitierbar ist.
@@ -437,8 +437,8 @@ siehe Quellcode
 ### Sprint Master:
 ToDo
 
-### Stakeholder: 
-Als Stakeholder werden alle Personen und Organisationen bezeichnet, die eine Software nutzen, finanzieren, entwickeln oder anderweitig Interesse an der Software und ihrer Nutzung haben. 
+### Stakeholder:
+Als Stakeholder werden alle Personen und Organisationen bezeichnet, die eine Software nutzen, finanzieren, entwickeln oder anderweitig Interesse an der Software und ihrer Nutzung haben.
 
 ### Standards/aktueller Stand der Technik:
 Bei dem Begriff „Stand der Technik“ handelt es sich um einen rechtlich-technischen Begriff, welcher für das Produkt gewisse Mindestanforderungen impliziert. Konkret heißt es: Stand der Technik ist der Entwicklungsstand fortschrittlicher Verfahren, Einrichtungen und Betriebsweisen, der nach herrschender Auffassung führender Fachleute das Erreichen des gesetzlich vorgegebenen Zieles gesichert erscheinen lässt. Verfahren, Einrichtungen und Betriebsweisen oder vergleichbare Verfahren, Einrichtungen und Betriebsweisen müssen sich in der Praxis bewährt haben oder sollten – wenn dies noch nicht der Fall ist – möglichst im Betrieb mit Erfolg erprobt worden sein.

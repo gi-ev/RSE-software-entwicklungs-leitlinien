@@ -4,12 +4,16 @@ theme:
   name: material
   features:
     - navigation.footer
+    - navigation.top
 
 copyright: '&copy; Software Guidelines workin group, CC0 1.0 deed'
-    
+
 markdown_extensions:
   - attr_list
-    
+  - toc:
+      permalink: true
+      toc_depth: 3
+
 # page tree
 nav:
   - Home: index.md
