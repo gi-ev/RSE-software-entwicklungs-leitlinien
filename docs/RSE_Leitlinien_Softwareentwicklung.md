@@ -43,15 +43,15 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 ## Inhaltsverzeichnis
 
-[Präambel: Zweck dieser Muster-Leitlinie](#präambel-zweck-dieser-muster-leitlinie)
+[Präambel: Zweck dieser Muster-Leitlinie](#praambel-zweck-dieser-muster-leitlinie)
 
 [Nutzung der Muster-Leitlinie & Lizenz](#nutzung-der-muster-leitlinie-und-lizenz)
 
-[Mitwirkende und Dank für die Mitarbeit](#mitwirkende-und-dank-für-die-mitarbeit)
+[Mitwirkende und Dank für die Mitarbeit](#mitwirkende-und-dank-fur-die-mitarbeit)
 
 [Wichtigste genutzte Quellen](#wichtigste-genutzte-quellen)
 
-[1 Executive Summary (für Entscheidende)](#1-executive-summary-für-entscheidende)
+[1 Executive Summary (für Entscheidende)](#1-executive-summary-fur-entscheidende)
 
 &ensp; [1.1. Lesehinweise](#11-lesehinweise)
 
@@ -88,7 +88,7 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 &ensp;&ensp;[3.2.5. Status der Software](#325-status-der-software)
 
-&ensp;&ensp;[3.2.6. Weitere Einflüsse](#326-weitere-einflüsse)
+&ensp;&ensp;[3.2.6. Weitere Einflüsse](#326-weitere-einflusse)
 
 &ensp;[3.3. Minimalanforderungen an Kernkompetenzen, Entwicklungsprozesse und Projektplanung in der Softwareentwicklung](#33-minimalanforderungen-an-kernkompetenzen-entwicklungsprozesse-und-projektplanung-in-der-softwareentwicklung)
 
@@ -100,7 +100,7 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 &ensp;&ensp;[3.4.1. Softwareentwicklungsprozesse](#341-softwareentwicklungsprozesse)
 
-&ensp;&ensp;[3.4.2. Qualitätsmanagement (Testen, Validierung, etc.)](#342-qualitätsmanagement-testen-validierung-etc)
+&ensp;&ensp;[3.4.2. Qualitätsmanagement (Testen, Validierung, etc.)](#342-qualitatsmanagement-testen-validierung-etc)
 
 &ensp;&ensp;[3.4.3. Anforderungen verstehen](#343-anforderungen-verstehen)
 
@@ -142,7 +142,7 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 &ensp;&ensp;[4.3.3  Copyleft Open Source Lizenzen (Best Practice Beispiele)](#433-copyleft-open-source-lizenzen-best-practice-beispiele)
 
-&ensp;&ensp;[4.3.4  Proprietäre Lizenzen](#434-proprietäre-lizenzen)
+&ensp;&ensp;[4.3.4  Proprietäre Lizenzen](#434-proprietare-lizenzen)
 
 &ensp;[4.4. Beratungsangebote und Vorgehensweise zur Auswahl](#44-beratungsangebote-und-vorgehensweise-zur-auswahl)
 
@@ -150,37 +150,37 @@ Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2
 
 &ensp;&ensp;[4.5.1. Rechte und Pflichten durch Lizenzen](#451-rechte-und-pflichten-durch-lizenzen)
 
-&ensp;&ensp;[4.5.2. Kompatibilität von Lizenzen](#452-kompatibilität-von-lizenzen)
+&ensp;&ensp;[4.5.2. Kompatibilität von Lizenzen](#452-kompatibilitat-von-lizenzen)
 
-[5. Unterstützungsleistungen durch [[die Universität | Hochschule | das Forschungszentrum | Einrichtung]]](#5-unterstützungsleistungen-durch-die-universität-hochschule-das-forschungszentrum-einrichtung)
+[5. Unterstützungsleistungen durch [[die Universität | Hochschule | das Forschungszentrum | Einrichtung]]](#5-unterstutzungsleistungen-durch-die-universitat-hochschule-das-forschungszentrum-einrichtung)
 
-&ensp;[5.1. Personelle Unterstützung bei der Erstellung und Erweiterung von Forschungssoftware](#51-personelle-unterstützung-bei-der-erstellung-und-erweiterung-von-forschungssoftware)
+&ensp;[5.1. Personelle Unterstützung bei der Erstellung und Erweiterung von Forschungssoftware](#51-personelle-unterstutzung-bei-der-erstellung-und-erweiterung-von-forschungssoftware)
 
-&ensp;[5.2. Unterstützungsleistungen bei der langfristigen Pflege von Software](#52-unterstützungsleistungen-bei-der-langfristigen-pflege-von-software)
+&ensp;[5.2. Unterstützungsleistungen bei der langfristigen Pflege von Software](#52-unterstutzungsleistungen-bei-der-langfristigen-pflege-von-software)
 
-&ensp;[5.3. Unterstützungsleistungen in der Weiterbildung](#53-unterstützungsleistungen-in-der-weiterbildung)
+&ensp;[5.3. Unterstützungsleistungen in der Weiterbildung](#53-unterstutzungsleistungen-in-der-weiterbildung)
 
-&ensp;[5.4. Würdigung der Research Software Engineers](#54-würdigung-der-research-software-engineers)
+&ensp;[5.4. Würdigung der Research Software Engineers](#54-wurdigung-der-research-software-engineers)
 
-&ensp;[5.5. Unterstützungsleistungen bei Lizenzen](#55-unterstützungsleistungen-bei-lizenzen)
+&ensp;[5.5. Unterstützungsleistungen bei Lizenzen](#55-unterstutzungsleistungen-bei-lizenzen)
 
-&ensp;[5.6. Unterstützungsleistungen durch technische Services](#56-unterstützungsleistungen-durch-technische-services)
+&ensp;[5.6. Unterstützungsleistungen durch technische Services](#56-unterstutzungsleistungen-durch-technische-services)
 
-&ensp;[5.7. Finanzierung der Unterstützungsleistungen bei der Entwicklung und Pflege von Software](#57-finanzierung-der-unterstützungsleistungen-bei-der-entwicklung-und-pflege-von-software)
+&ensp;[5.7. Finanzierung der Unterstützungsleistungen bei der Entwicklung und Pflege von Software](#57-finanzierung-der-unterstutzungsleistungen-bei-der-entwicklung-und-pflege-von-software)
 
-&ensp;&ensp;[5.7.1. Übernahme auf RSE-Zentrums-Kosten (“Universitäts-Software”)](#571-übernahme-auf-rse-zentrums-kosten-universitäts-software)
+&ensp;&ensp;[5.7.1. Übernahme auf RSE-Zentrums-Kosten (“Universitäts-Software”)](#571-ubernahme-auf-rse-zentrums-kosten-universitats-software)
 
-&ensp;&ensp;[5.7.2 Übernahme auf Kosten der Forschungseinheit (“Instituts-Software”)](#572-übernahme-auf-kosten-der-forschungseinheit-instituts-software)
+&ensp;&ensp;[5.7.2 Übernahme auf Kosten der Forschungseinheit (“Instituts-Software”)](#572-ubernahme-auf-kosten-der-forschungseinheit-instituts-software)
 
-&ensp;&ensp;[5.7.3 Ausgestaltung der Unterstützung](#573-ausgestaltung-der-unterstützung)
+&ensp;&ensp;[5.7.3 Ausgestaltung der Unterstützung](#573-ausgestaltung-der-unterstutzung)
 
-&ensp;[5.8. Weitere Unterstützungsleistungen](#58-weitere-unterstützungsleistungen)
+&ensp;[5.8. Weitere Unterstützungsleistungen](#58-weitere-unterstutzungsleistungen)
 
 [Referenzen](#referenzen)
 
-[Anhang A: Kategorisierungsmöglichkeiten](#anhang-a-kategorisierungsmöglichkeiten)
+[Anhang A: Kategorisierungsmöglichkeiten](#anhang-a-kategorisierungsmoglichkeiten)
 
-[Anhang B: Checkliste für die Weitergabe von Software](#anhang-b-checkliste-für-die-weitergabe-von-software)
+[Anhang B: Checkliste für die Weitergabe von Software](#anhang-b-checkliste-fur-die-weitergabe-von-software)
 
 [Anhang C: Grundlagen und Mitwirkende](#anhang-c-grundlagen-und-mitwirkende)
 
