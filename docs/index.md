@@ -1,9 +1,3 @@
----
-hide:
-    - toc
-    - navigation
----
-
 # A guidelines and policy template for the development of research software at German research institutions
 ### A recommendation by GI, RSE working group and de-RSE
 

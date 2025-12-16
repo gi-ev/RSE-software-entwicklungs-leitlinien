@@ -1,4 +1,4 @@
-# GI and DE-RSE Template Guideline for the Efficient Development of Research Software
+# GI and de-RSE Template Guideline for the Efficient Development of Research Software
 **Derived from German Version V1.0**
 
 ![Title Page](./images_eng/frontpage.png)
