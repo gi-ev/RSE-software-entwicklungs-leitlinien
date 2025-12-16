@@ -1,5 +1,5 @@
 # GI and DE-RSE Template Guideline for the Efficient Development of Research Software
-## Draft of the English Version - Derived from V1.0
+**Derived from German Version V1.0**
 
 ![Title Page](./images_eng/frontpage.png)
 
@@ -9,152 +9,151 @@
 GI- und DE-RSE Muster-Leitlinie zur effizienten Entwicklung von Forschungssoftware.
 Gesellschaft für Informatik, Technischer Bericht, GI Leitlinien, DOI 10.18420/2025-gi_de-rse, Gesellschaft für Informatik e.V., Jan. 2025.
 
-<a id="toc"></a>
 ## Table of Contents
 
-[Preamble: Purpose of this Template Guideline](#preamble:-purpose-of-this-template-guideline)
+[Preamble: Purpose of this Template Guideline](#preamble-purpose-of-this-template-guideline)
 
-[Use of the Template Guideline & License](#use-of-the-template-guideline-&-license)
+[Use of the Template Guideline and License](#use-of-the-template-guideline-and-license)
 
 [Contributors and Thanks for Your Cooperation](#contributors-and-thanks-for-your-cooperation)
 
 [Main Sources Used](#main-sources-used)
 
-[1 Executive Summary (for Decision-Makers)](#1-executive-summary-\(for-decision-makers\))
+[1 Executive Summary (for Decision-Makers)](#1-executive-summary-for-decision-makers)
 
-&ensp;[1.1 Reading Notes](#1.1-reading-notes)
+&ensp;[1.1 Reading Notes](#11-reading-notes)
 
 [2 Introduction](#2-introduction)
 
-&ensp;[2.1 Characteristics of Software, Especially Research Software](#2.1-characteristics-of-software,-especially-research-software)
+&ensp;[2.1 Characteristics of Software, Especially Research Software](#21-characteristics-of-software-especially-research-software)
 
-&ensp;[2.2 Characteristics of Research Software Engineering](#2.2-characteristics-of-research-software-engineering)
+&ensp;[2.2 Characteristics of Research Software Engineering](#22-characteristics-of-research-software-engineering)
 
-&ensp;[2.3 Tasks of the Guideline](#2.3-tasks-of-the-guideline)
+&ensp;[2.3 Tasks of the Guideline](#23-tasks-of-the-guideline)
 
-&ensp;[2.4 Delimitation, Non-Objectives of the Guideline](#2.4-delimitation,-non-objectives-of-the-guideline)
+&ensp;[2.4 Delimitation, Non-Objectives of the Guideline](#24-delimitation-non-objectives-of-the-guideline)
 
-&ensp;[2.5 Coordinated Framework Guidelines for Safeguarding, Good Research Practice, Code of Conduct Requirements](#2.5-coordinated-framework-guidelines-for-safeguarding,-good-research-practice,-code-of-conduct-requirements)
+&ensp;[2.5 Coordinated Framework Guidelines for Safeguarding, Good Research Practice, Code of Conduct Requirements](#25-coordinated-framework-guidelines-for-safeguarding-good-research-practice-code-of-conduct-requirements)
 
-&ensp;[2.6 Conclusion](#2.6-conclusion)
+&ensp;[2.6 Conclusion](#26-conclusion)
 
 [3 Technical Guidelines for Software Development](#3-technical-guidelines-for-software-development)
 
-&ensp;[3.1 Introduction](#3.1-introduction)
+&ensp;[3.1 Introduction](#31-introduction)
 
-&ensp;&ensp;[3.1.1 Research Software: Demonstrator, Product, Infrastructure](#3.1.1-research-software--demonstrator--product--infrastructure)
+&ensp;&ensp;[3.1.1 Research Software: Demonstrator, Product, Infrastructure](#311-research-software-demonstrator-product-infrastructure)
 
-&ensp;[3.2 Categorization of Research Software](#3.2-categorization-of-research-software)
+&ensp;[3.2 Categorization of Research Software](#32-categorization-of-research-software)
 
-&ensp;&ensp;[3.2.1 Kind of Software or Software Component (Dimension Kind)](#3.2.1-kind-of-software-or-software-component-\(dimension-kind\))
+&ensp;&ensp;[3.2.1 Kind of Software or Software Component (Dimension Kind)](#321-kind-of-software-or-software-component-dimension-kind)
 
-&ensp;&ensp;[3.2.2 Degree of Utilization of the Software or Software Component](#3.2.2-degree-of-utilization-of-the-software-or-software-component-\(dimension-use\))
+&ensp;&ensp;[3.2.2 Degree of Utilization of the Software or Software Component](#322-degree-of-utilization-of-the-software-or-software-component-dimension-use)
 
-&ensp;&ensp;[3.2.3 Classification in the Technology Readiness Levels (TRL) according to the EU](#3.2.3-classification-in-the-technology-readiness-levels-\(trl\)-according-to-the-eu)
+&ensp;&ensp;[3.2.3 Classification in the Technology Readiness Levels (TRL) according to the EU](#323-classification-in-the-technology-readiness-levels-trl-according-to-the-eu)
 
-&ensp;&ensp;[3.2.4 Application Classes](#3.2.4-application-classes)
+&ensp;&ensp;[3.2.4 Application Classes](#324-application-classes)
 
-&ensp;&ensp;[3.2.5 Status of the Software](#3.2.5-status-of-the-software)
+&ensp;&ensp;[3.2.5 Status of the Software](#325-status-of-the-software)
 
-&ensp;&ensp;[3.2.6 Other factors](#3.2.6-other-factors)
+&ensp;&ensp;[3.2.6 Other factors](#326-other-factors)
 
-&ensp;[3.3 Minimal Requirements for Core Competencies, Development Processes and Project Planning in Software Development	30](#3.3-minimal-requirements-for-core-competencies,-development-processes-and-project-planning-in-software-development)
+&ensp;[3.3 Minimal Requirements for Core Competencies, Development Processes and Project Planning in Software Development	30](#33-minimal-requirements-for-core-competencies-development-processes-and-project-planning-in-software-development)
 
-&ensp;&ensp;[3.3.1 Minimum Requirements for the Technology Readiness Level based on the Degree of Utilization (Use) and the Kind of Software (Kind)](#3.3.1-minimum-requirements-for-the-technology-readiness-level-based-on-the-degree-of-utilization-\(use\)-and-the-kind-of-software-\(kind\))
+&ensp;&ensp;[3.3.1 Minimum Requirements for the Technology Readiness Level based on the Degree of Utilization (Use) and the Kind of Software (Kind)](#331-minimum-requirements-for-the-technology-readiness-level-based-on-the-degree-of-utilization-use-and-the-kind-of-software-kind)
 
-&ensp;&ensp;[3.3.2 Minimum Requirements for Rields of Action and Necessary Core Competencies in Software Development based on the Technology Readiness Level](#3.3.2-minimum-requirements-for-rields-of-action-and-necessary-core-competencies-in-software-development-based-on-the-technology-readiness-level)
+&ensp;&ensp;[3.3.2 Minimum Requirements for Rields of Action and Necessary Core Competencies in Software Development based on the Technology Readiness Level](#332-minimum-requirements-for-rields-of-action-and-necessary-core-competencies-in-software-development-based-on-the-technology-readiness-level)
 
-&ensp;[3.4 Methodological Principles of Software Development](#3.4.-methodological-principles-of-software-development)
+&ensp;[3.4 Methodological Principles of Software Development](#34-methodological-principles-of-software-development)
 
-&ensp;&ensp;[3.4.1 Software Engineering Processes](#3.4.1-software-engineering-processes)
+&ensp;&ensp;[3.4.1 Software Engineering Processes](#341-software-engineering-processes)
 
-&ensp;&ensp;[3.4.2 Quality Management (Testing, Validation, etc.)](#3.4.2-quality-management-\(testing,-validation,-etc.\))
+&ensp;&ensp;[3.4.2 Quality Management (Testing, Validation, etc.)](#342-quality-management-testing-validation-etc)
 
-&ensp;&ensp;[3.4.3 Understanding Requirements](#3.4.3-understanding-requirements)
+&ensp;&ensp;[3.4.3 Understanding Requirements](#343-understanding-requirements)
 
-&ensp;&ensp;[3.4.4 Software Architecture](#3.4.4-software-architecture)
+&ensp;&ensp;[3.4.4 Software Architecture](#344-software-architecture)
 
-&ensp;&ensp;[3.4.5 Software Modeling](#3.4.5-software-modeling)
+&ensp;&ensp;[3.4.5 Software Modeling](#345-software-modeling)
 
-&ensp;&ensp;[3.4.6 Versioning](#3.4.6-versioning)
+&ensp;&ensp;[3.4.6 Versioning](#346-versioning)
 
-&ensp;&ensp;[3.4.7 Test Concept and Automation](#3.4.7-test-concept-and-automation)
+&ensp;&ensp;[3.4.7 Test Concept and Automation](#347-test-concept-and-automation)
 
-&ensp;&ensp;[3.4.8 Management of Software-related Data and Data Basis](#3.4.8-management-of-software-related-data-and-data-basis)
+&ensp;&ensp;[3.4.8 Management of Software-related Data and Data Basis](#348-management-of-software-related-data-and-data-basis)
 
-&ensp;&ensp;[3.4.9 Best Practices, Design Patterns, Issue Tracking, Coding Guidelines](#3.4.9-best-practices,-design-patterns,-issue-tracking,-coding-guidelines)
+&ensp;&ensp;[3.4.9 Best Practices, Design Patterns, Issue Tracking, Coding Guidelines](#349-best-practices-design-patterns-issue-tracking-coding-guidelines)
 
-&ensp;[3.5 Technical Basics](#3.5.-technical-basics)
+&ensp;[3.5 Technical Basics](#35-technical-basics)
 
-&ensp;&ensp;[3.5.1 Git Version Control System](#3.5.1-git-version-control-system)
+&ensp;&ensp;[3.5.1 Git Version Control System](#351-git-version-control-system)
 
-&ensp;&ensp;[3.5.2 Continuous Integration/Continuous Delivery](#3.5.2-continuous-integration/continuous-delivery)
+&ensp;&ensp;[3.5.2 Continuous Integration/Continuous Delivery](#352-continuous-integrationcontinuous-delivery)
 
-&ensp;&ensp;[3.5.3 Test Frameworks](#3.5.3-test-frameworks)
+&ensp;&ensp;[3.5.3 Test Frameworks](#353-test-frameworks)
 
-&ensp;&ensp;[3.5.4 Dissemination](#3.5.4-dissemination)
+&ensp;&ensp;[3.5.4 Dissemination](#354-dissemination)
 
-&ensp;&ensp;[3.5.5 Software Discovery](#3.5.5-software-discovery)
+&ensp;&ensp;[3.5.5 Software Discovery](#355-software-discovery)
 
-[4 Granting and Use of Licenses (Legal Protection)](#4-granting-and-use-of-licenses-\(legal-protection\))
+[4 Granting and Use of Licenses (Legal Protection)](#4-granting-and-use-of-licenses-legal-protection)
 
-&ensp;[4.1. Scientific Exploitation and License Selection \-- General](#4.1.-scientific-exploitation-and-license-selection----general)
+&ensp;[4.1. Scientific Exploitation and License Selection \-- General](#41-scientific-exploitation-and-license-selection-general)
 
-&ensp;[4.2 Notes on Economic Utilization](#4.2-notes-on-economic-utilization)
+&ensp;[4.2 Notes on Economic Utilization](#42-notes-on-economic-utilization)
 
-&ensp;[4.3 License Types](#4.3-license-types)
+&ensp;[4.3 License Types](#43-license-types)
 
-&ensp;&ensp;[4.3.1 Open Source Licenses](#4.3.1-open-source-licenses)
+&ensp;&ensp;[4.3.1 Open Source Licenses](#431-open-source-licenses)
 
-&ensp;&ensp;[4.3.2 Permissive Open Source Licenses](#4.3.2-permissive-open-source-licenses)
+&ensp;&ensp;[4.3.2 Permissive Open Source Licenses](#432-permissive-open-source-licenses)
 
-&ensp;&ensp;[4.3.3  Copyleft Open Source Licenses (Best Practice Examples)](#4.3.3-copyleft-open-source-licenses-\(best-practice-examples\))
+&ensp;&ensp;[4.3.3  Copyleft Open Source Licenses (Best Practice Examples)](#433-copyleft-open-source-licenses-best-practice-examples)
 
-&ensp;&ensp;[4.3.4 Proprietary Licenses](#4.3.4-proprietary-licenses)
+&ensp;&ensp;[4.3.4 Proprietary Licenses](#434-proprietary-licenses)
 
-&ensp;[4.4 Consulting Services and Procedure for Selection](#4.4-consulting-services-and-procedure-for-selection)
+&ensp;[4.4 Consulting Services and Procedure for Selection](#44-consulting-services-and-procedure-for-selection)
 
-&ensp;[4.5. Use of Third-Party Software](#4.5.-use-of-third-party-software)
+&ensp;[4.5. Use of Third-Party Software](#45-use-of-third-party-software)
 
-&ensp;&ensp;[4.5.1 Rights and Obligations through Licenses](#4.5.1-rights-and-obligations-through-licenses)
+&ensp;&ensp;[4.5.1 Rights and Obligations through Licenses](#451-rights-and-obligations-through-licenses)
 
-&ensp;&ensp;[4.5.2 Compatibility of Licenses](#4.5.2-compatibility-of-licenses)
+&ensp;&ensp;[4.5.2 Compatibility of Licenses](#452-compatibility-of-licenses)
 
-[5\. Support Services by the \[\[University | Research institution\]\]	54](#5.-support-services-by-the-[[university-|-research-institution]])
+[5\. Support Services by the \[\[University | Research institution\]\]	54](#5-support-services-by-the-university-research-institution)
 
-&ensp;[5.1 Personnel Support for the Creation and Expansion of Research Software](#5.1-personnel-support-for-the-creation-and-expansion-of-research-software)
+&ensp;[5.1 Personnel Support for the Creation and Expansion of Research Software](#51-personnel-support-for-the-creation-and-expansion-of-research-software)
 
-&ensp;[5.2 Support Services for the Long-term Maintenance of Software](#5.2-support-services-for-the-long-term-maintenance-of-software)
+&ensp;[5.2 Support Services for the Long-term Maintenance of Software](#52-support-services-for-the-long-term-maintenance-of-software)
 
-&ensp;[5.3 Support Services in Continuing Education](#5.3-support-services-in-continuing-education)
+&ensp;[5.3 Support Services in Continuing Education](#53-support-services-in-continuing-education)
 
-&ensp;[5.4 Appreciation of the Research Software Engineers](#5.4-appreciation-of-the-research-software-engineers)
+&ensp;[5.4 Appreciation of the Research Software Engineers](#54-appreciation-of-the-research-software-engineers)
 
-&ensp;[5.5 Support Services for Licenses](#5.5-support-services-for-licenses)
+&ensp;[5.5 Support Services for Licenses](#55-support-services-for-licenses)
 
-&ensp;[5.6 Support Services through Technical Services](#5.6-support-services-through-technical-services)
+&ensp;[5.6 Support Services through Technical Services](#56-support-services-through-technical-services)
 
-&ensp;[5.7 Financing of Support Services for the Development and Maintenance of Software](#5.7-financing-of-support-services-for-the-development-and-maintenance-of-software)
+&ensp;[5.7 Financing of Support Services for the Development and Maintenance of Software](#57-financing-of-support-services-for-the-development-and-maintenance-of-software)
 
-&ensp;&ensp;[5.7.1 Transfer to RSE Center Costs ("University Software")](#5.7.1-transfer-to-rse-center-costs-(-university-software-))
+&ensp;&ensp;[5.7.1 Transfer to RSE Center Costs ("University Software")](#571-transfer-to-rse-center-costs-university-software)
 
-&ensp;&ensp;[5.7.2 Acquisition at the Expense of the Research Unit ("Institute Software")](#5.7.2-acquisition-at-the-expense-of-the-research-unit-(-institute-software-))
+&ensp;&ensp;[5.7.2 Acquisition at the Expense of the Research Unit ("Institute Software")](#572-acquisition-at-the-expense-of-the-research-unit-institute-software)
 
-&ensp;&ensp;[5.7.3 Design of the Support](#5.7.3-design-of-the-support)
+&ensp;&ensp;[5.7.3 Design of the Support](#573-design-of-the-support)
 
-&ensp;[5.8 Other Support Services](#5.8-other-support-services)
+&ensp;[5.8 Other Support Services](#58-other-support-services)
 
 [References](#references)
 
-[Appendix A: Categorization Options](#appendix-a--categorization-options)
+[Appendix A: Categorization Options](#appendix-a-categorization-options)
 
-[Appendix B: Checklist for the Transfer of Software](#appendix-b--checklist-for-the-transfer-of-software)
+[Appendix B: Checklist for the Transfer of Software](#appendix-b-checklist-for-the-transfer-of-software)
 
-[Appendix C: Principles and Contributors](#appendix-c--principles-and-contributors)
+[Appendix C: Principles and Contributors](#appendix-c-principles-and-contributors)
 
-<a id="preamble:-purpose-of-this-template-guideline"></a>
-# Preamble: Purpose of this Template Guideline
-[Back to Conent](#toc)
+
+## Preamble: Purpose of this Template Guideline
+
 
 This template guideline provides a framework for the development, management, and transfer of software at a university or research institution. It is also suitable for cross-institutional collaborative research projects, especially when the project participants at the various universities and research institutions use compatible versions.
 
@@ -178,9 +177,9 @@ This multi-variant template guideline for the development of research software w
 
 The template guideline of the de-RSE and the GI is explicitly supported by the expert committee Medical Informatics of the GMDS \- German Association for Medical Informatics, Biometry, and Epidemiology and the working group Medical Software and Medical Device Law (MSM) of the TMF \- Technology and Methods Platform for Networked Medical Research.
 
-<a id="use-of-the-template-guideline-&-license"></a>
-### Use of the Template Guideline & License
-[Back to Conent](#toc)
+
+### Use of the Template Guideline and License
+
 
 The persons who have contributed to this document are listed under contributors. As far as legally possible, the persons who have associated this guideline with CC0 1.0 DEED waive all rights of use and exploitation of this guideline. The license can be found at [https://creativecommons.org/publicdomain/zero/1.0/](https://creativecommons.org/publicdomain/zero/1.0/).
 
@@ -215,17 +214,17 @@ A guideline on research software development should include the following sectio
 
 In addition, there can of course be several subject-specific additions. If these concern the entire research unit, it is appropriate to include or refer to them within these guidelines. References to subject-specific guidelines on reliability (safety), cybersecurity, etc., may be relevant. If there are multiple subject-specific supplements (e.g., references to procedures, standards, etc.), it is recommended to document them in separate supplementary guidelines.
 
-<a id="contributors-and-thanks-for-your-cooperation"></a>
+
 ### Contributors and Thanks for Your Cooperation
-[Back to Conent](#toc)
+
 
 See Appendix C, which may form part of a final guideline.
 
 The authors would appreciate feedback on which university or research institution is using the text in which form, what experiences have been made, and what could be improved.
 
-<a id="main-sources-used"></a>
+
 ### Main Sources Used
-[Back to Conent](#toc)
+
 
 In particular, the following documents have been incorporated into the preparation of this template guideline:
 
@@ -239,13 +238,13 @@ In particular, the following documents have been incorporated into the preparati
 
 \[\[Note for guideline authors/university management: End of the preamble: this section can be deleted, as the preamble is not part of the actual guideline. For this reason, relevant parts of the preamble are repeated in the actual introduction below.\]\]
 
-<a id="1-executive-summary-(for-decision-makers)"></a>
-# 1 Executive Summary (for Decision-Makers)
-[Back to Conent](#toc)
+
+## **1. Executive Summary (for Decision-Makers)**
+
 
 \[\[Note for guideline authors/university management: The executive summary is intended to provide a brief summary of the content and, above all, to give decision-makers an overview. However, the document is rich in variants, which may require adaptation of the summary.\]\]
 
-\>\>\> Parts that are particularly relevant for managers and decision-makers (e.g., heads of institutes or departments) are marked in green in the document. \<\<\<
+→→ Parts that are particularly relevant for managers and decision-makers (e.g., heads of institutes or departments) are marked in green in the document. ←←
 
 Software is both a central component, a tool, and an important result of modern academic research. Although it should be long-lasting and comprehensible in its use, it is often highly complex due to its continuous expansion and further development. This is one of the reasons why the DFG published the recommendations on the use of research software \[DFG24\] in October 2024, for which these guidelines are to be understood as a fully compatible organizational and technical specification.
 
@@ -310,9 +309,9 @@ The RSE Center coordinates the training and further education of research softwa
 
 Important technical services for collaborative development, documentation, project management, ticket management, data management, communication, etc., are provided by the \[\[university | research institution\]\] via its IT services.
 
-<a id="1.1-reading-notes"></a>
-## 1.1 Reading Notes
-[Back to Conent](#toc)
+
+### **1.1 Reading Notes**
+
 
 This guideline is aimed at
 
@@ -324,9 +323,9 @@ The Executive Summary is intended particularly for managers and decision-makers,
 
 Developers receive an overview of relevant applicable topics of software development, tools provided, and methodological and training support offers, as well as help with specific questions.
 
-<a id="2-introduction"></a>
-# 2 Introduction
-[Back to Conent](#toc)
+
+## **2. Introduction**
+
 
 Software has become a central component of research and is often essential for the feasibility of research projects. High data volumes and simulations, enabled by increasingly powerful hardware, place demands on software developed specifically for research purposes, which in turn enables excellent research. Such research software \[GKL+21\] includes all forms of source code, descriptions, documentation, executable models, configuration files, embedded data/records, scripts, and executable programs generated from them, which are developed in the context of research or for research purposes \[BHK22\].  This is one of the reasons why the DFG published the Guidelines for the Handling of Research Software \[DFG24\] in October 2024, for which these guidelines are to be understood as a fully compatible organizational and technical specification.
 
@@ -349,9 +348,9 @@ This guideline aims to establish a reliable and sustainable approach to self-dev
 
 This guideline contains concrete organizational measures for the development, evolution, and maintenance of the research software, as well as the legal safeguarding of licensing for the transfer of the software to the public or the specialist community.
 
-<a id="2.1-characteristics-of-software,-especially-research-software"></a>
-## 2.1 Characteristics of Software, Especially Research Software
-[Back to Conent](#toc)
+
+### **2.1 Characteristics of Software, Especially Research Software**
+
 
 **Software** generally includes all forms of source code, descriptions, documentation, executable models, configuration files, embedded/linked data/records, scripts, and executable programs generated from them, as well as the tests and test descriptions for their quality assurance.
 
@@ -367,9 +366,9 @@ Research software can be subject to a long, evolutionary development process. In
 
 The scientists involved in the development of research software (research software engineers) must be acknowledged in the results of the scientific work. In accordance with the standards of good scientific practice (cf. Guideline 14 \[DFG22\]), joint authorship is required for publications of findings that are essentially based on the research software (see Section 5.4).
 
-<a id="2.2-characteristics-of-research-software-engineering"></a>
-## 2.2 Characteristics of Research Software Engineering
-[Back to Conent](#toc)
+
+## 2.2 Characteristics of Research Software Engineering**
+
 
 Most scientists who develop software are not trained software developers, but excellent researchers in their discipline. When it comes to software engineering, they are often guided by their immediate work environment and their colleagues' experiences, without necessarily being aware of the consulting services, tools, best practices, and experiences of the \[\[university | research institution\]\], if they exist.
 
@@ -390,9 +389,9 @@ RSE addresses several special features in the development of research software: 
 
 This results in specific challenges for software development. The procedure for requirements elicitation in RSE must be organized differently because it is inextricably linked to the research process. This has a significant impact on the applicable methods, for example, agile development, the often necessary refactoring of the architecture, or quality assurance through automated testing. Research-specific quality criteria include transparency and reproducibility of the calculated results and the reusability of the software itself, and therefore robustness, configurability, and variability, as well as the software's ability to evolve.
 
-<a id="2.3-tasks-of-the-guideline"></a>
-## 2.3 Tasks of the Guideline
-[Back to Conent](#toc)
+
+### **2.3 Tasks of the Guideline**
+
 
 This guideline provides a framework for the development, management and dissemination of software at the \[\[university | research institution\]\]. It is also suitable for cross-site collaborative research projects if the project participants use compatible versions of the guideline. This guideline
 
@@ -411,9 +410,9 @@ This guideline is aimed at all stakeholders in software development, specificall
 
 In the spirit of open science, access to and reuse of software are the basis for the traceability, verifiability, and reproducibility of scientific results. The FAIR principles (Findable, Accessible, Interoperable, Reusable) \[FAIR20\], which apply to research data, must be applied to research software \[BHK+22\] as well. Here, the further development, error correction, security updates, and versioning of the actual software, together with the software components used, such as the operating system, the firmware, and, if applicable, the hardware, must also be taken into account. For this reason, the \[\[university | research institution\]\] encourages researchers to make software openly accessible in accordance with the FAIR principles for research software, for example, as "open source" with extensive access and (subsequent) usage rights, taking into account the further development, error correction, security updates, and versioning of the software.
 
-<a id="2.4-delimitation,-non-objectives-of-the-guideline"></a>
-## 2.4 Delimitation, Non-Objectives of the Guideline
-[Back to Conent](#toc)
+
+### **2.4 Delimitation, Non-Objectives of the Guideline**
+
 
 It should be noted that the guideline does not address the specific legal and sub-legal regulations for software in the scientific domain. Instead, the subject-specific further directives and technical standards that play a special role in critical software, such as in medical technology, must be respected.
 
@@ -425,9 +424,9 @@ The topic of AI, in particular the use of LLMs, is currently the subject of inte
 
 \[\[End of Option\]\]
 
-<a id="2.5-coordinated-framework-guidelines-for-safeguarding,-good-research-practice,-code-of-conduct-requirements"></a>
-## 2.5 Coordinated Framework Guidelines for Safeguarding, Good Research Practice, Code of Conduct Requirements
-[Back to Conent](#toc)
+
+### **2.5 Coordinated Framework Guidelines for Safeguarding, Good Research Practice, Code of Conduct Requirements**
+
 
 Both internal framework conditions and other recommendations were taken into account in developing this guideline. Many of these sources are in German, because the original GI/de-RSE guidelines \[GI25\] are German.
 
@@ -448,9 +447,9 @@ Both internal framework conditions and other recommendations were taken into acc
 
 \[\[End of Variants\]\]
 
-<a id="2.6-conclusion"></a>
-## 2.6 Conclusion
-[Back to Conent](#toc)
+
+### **2.6 Conclusion**
+
 
 The implementation of this software guideline by the \[\[university | research institution\]\] enables employees to develop and share software with high-quality standards in a practical and reliable framework.
 
@@ -468,23 +467,23 @@ Complex software engineering issues are supported by technical experts in the fo
 
 The impact generated by this guideline creates sustainability and good scientific practice in the development and dissemination of software and thus adds value in society, industry, science, and politics.
 
-<a id="3-technical-guidelines-for-software-development"></a>
-# 3 Technical Guidelines for Software Development
-[Back to Conent](#toc)
+
+## **3. Technical Guidelines for Software Development**
+
 
 The technical part of the guidelines is intended for **managers and decision-makers** (e.g., heads of institutes or departments) as well as **developers** in order to develop software efficiently and sustainably.
 
-\>\>\> Parts that are particularly relevant for **managers and decision-makers** (e.g., heads of institutes or departments) are highlighted. \<\<\<
+→→ Parts that are particularly relevant for **managers and decision-makers** (e.g., heads of institutes or departments) are highlighted. ←←
 
 The guidelines contain a guide for managers(\!) and developers to categorize their software and derive what basic knowledge and skills must be available for development and which techniques/tools should be used.
 
-<a id="3.1-introduction"></a>
-## 3.1 Introduction
-[Back to Conent](#toc)
+
+### **3.1 Introduction**
+
 
 Various well-developed process models, methods, practices, and tools exist for software development, both across all topics and for individual activities, in order to support these activities, from the collection of requirements to the decommissioning of a software system. The IEEE Computer Society's "Guide to the Software Engineering Body of Knowledge" \[BF14\] provides a comprehensive (and therefore not directly recommended) overview of these software engineering activities. Software engineering can be learned well through appropriate lectures or standard books. Practical experience is very relevant. Good reading resources for developers with some experience and an interest in in-depth study include Sommerville ("Software Engineering", English and German) \[Som18\] or Lichter/Ludewig ("Software Engineering: Grundlagen, Menschen, Prozesse, Techniken") \[LL23\], as well as a detailed reference work by Balzert/Ebert ("Lehrbuch der Softwaretechnik") \[Bal25\]. Numerous topic-specific books are also helpful.
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 
 Based on the particular challenges for research software, it is necessary to define the goals of research software and the long-term strategy at an early stage in order to select different methods for creation and management on this basis and to ensure relevant developer core competencies. An important aspect here is to accept and jointly anticipate the potentially different goals of all stakeholders (including developers, decision-makers, funding bodies, and research units). Examples include short-term success with scientific publications versus long-lasting, sustainably available infrastructure (in the sense of research software) for further research activities; these are partly contradictory and can be addressed primarily through the application of techniques in the software engineering portfolio.
 
@@ -492,7 +491,7 @@ Based on the particular challenges for research software, it is necessary to def
 
 \[\[Note: some of the four steps are to be deleted if the corresponding section has been deleted; for example, the selection of the application class is no longer necessary if dimension and target TRL have been selected.\]\]
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 
 There are three further steps that should be carried out by the decision-makers in order to clarify the boundary conditions for the development results as well as the procedure. The steps are explained in the following sections:
 
@@ -500,9 +499,9 @@ There are three further steps that should be carried out by the decision-makers 
 * Step 3: Define the target TRL or adopt the specifications from the funding body and define the specific criteria for robustness, scaling, connection to neighboring systems, flexible expandability, security, etc. (see Section 3.2.3).
 * Step 4: Identify the desired application class (see Section 3.2.4).
 
-<a id="3.1.1-research-software--demonstrator--product--infrastructure"></a>
-### 3.1.1 Research Software: Demonstrator, Product, Infrastructure
-[Back to Conent](#toc)
+
+#### **3.1.1 Research Software: Demonstrator, Product, Infrastructure**
+
 
 In the medium term, software that is created in research projects and is to be reused for subsequent research takes on the role of infrastructure for research. Not all software becomes infrastructure, but may only have a limited scope. It is therefore important to consider the readiness level (TRL, see below) of the software at an early stage. In addition to defining a software development process, a software management plan (SMP) can help to define structures and goals so that the development of long-lasting and reusable software is supported.
 
@@ -510,9 +509,9 @@ The quality and reproducibility of the research results generated with long-last
 
 Planning and maintaining research software as an infrastructure increases the effectiveness and efficiency of research. Recurring technical tasks can be developed more quickly. In addition to saving development costs, the learning effort required by researchers to operate and develop research software can also be reduced if recurring or similar tasks are not always implemented from scratch and inconsistently. Continuous quality assurance measures for the research software strengthen the internal validity of the research process.
 
-<a id="3.2-categorization-of-research-software"></a>
-## 3.2 Categorization of Research Software
-[Back to Conent](#toc)
+
+### **3.2 Categorization of Research Software**
+
 
 Research software takes many forms and can be assigned to different categories depending on its area of application and purpose. This categorization is of crucial importance as it helps to determine the requirements for the software and thus provides a basis for selecting suitable software engineering methods. We recommend categorizing along the following dimensions:
 
@@ -528,9 +527,9 @@ Research software takes many forms and can be assigned to different categories d
 \[\[Variant 1: The use of categorization is optional; however, later definitions are based on it\]\]
 Funding bodies, such as the DFG in \[DFG24\], recommend an explicit classification of the software type/category and the resulting procedure for the development process and maintenance of the software when submitting a proposal.
 
-<a id="3.2.1-kind-of-software-or-software-component-(dimension-kind)"></a>
-### 3.2.1 Kind of Software or Software Component (Dimension Kind)
-[Back to Conent](#toc)
+
+#### **3.2.1 Kind of Software or Software Component (Dimension Kind)**
+
 
 A dimension variant is defined by the type of software, or the closely related purpose of the software. A detailed categorization can be found in \[HDB+24\], therefore only a very rough distinction is given here, which is not always clear-cut:
 
@@ -548,9 +547,9 @@ Complex software may contain components of several types. The type of software h
 
 \[\[Variant 2: The use of software types is optional; however, later definitions are based on it; it requires/supplements variant 1\]\]
 
-<a id="3.2.2-degree-of-utilization-of-the-software-or-software-component-(dimension-use)"></a>
-### 3.2.2 Degree of Utilization of the Software or Software Component  (Dimension Use)
-[Back to Conent](#toc)
+
+#### **3.2.2 Degree of Utilization of the Software or Software Component  (Dimension Use)**
+
 
 | | |
 | :---- | :---- |
@@ -564,7 +563,7 @@ Complex software may contain components of several types. The type of software h
 
 (Use:Dem) software is built from the beginning to fulfill its demonstration purpose quickly and is typically disposed of afterwards. It is in the nature of (Use:Dem) not to have a sensible internal architecture and therefore not the ability to evolve.
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 If applicable, for components to be clarified individually: Which category should the software be assigned to at the end of the currently planned development phase?
 
 Step 2: Classify the software: what is the intended kind (dimension Kind) and the degree of utilization (dimension Use) of the software after/at the end(\!) of the project? The existing and available software must also be taken into account and suitable software components must continue to be used efficiently or developed further.
@@ -573,9 +572,9 @@ Step 2: Classify the software: what is the intended kind (dimension Kind) and th
 
 \[\[Variant 3: The use of TRLs is optional; however, later definitions are based on them\]\]
 
-<a id="3.2.3-classification-in-the-technology-readiness-levels-(trl)-according-to-the-eu"></a>
-### 3.2.3 Classification in the Technology Readiness Levels (TRL) according to the EU
-[Back to Conent](#toc)
+
+#### **3.2.3 Classification in the Technology Readiness Levels (TRL) according to the EU**
+
 
 The **Technology Readiness Level (TRL**, \[DIN20\]) is a type of measurement system used by funding bodies such as the EU to assess the current or envisaged state of development of technologies. The TRLs are also applied to software, and specifically to research software. See, for example, the classification by NASA's Earth Science Technology Office (ESTO) \[NAS20\]. Specifically, it indicates on a scale of 1 to 9 how usable research software is based on defined criteria.
 
@@ -600,7 +599,7 @@ The TRL table for research software:
 | 2: Technology (software stack) and key requirements clarified  |
 | 1: First ideas developed  |
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 Questions to be clarified individually for components, if applicable:
 
 * Which category should the software be assigned to after the currently planned development phase? What is the target TRL?
@@ -625,9 +624,9 @@ Step 3: Define the target TRL or adopt the specifications from the funding body 
 
 \[\[Note on Variant 4: In discussions during the preparation of this guideline, it was noted that these application classes are primarily usable in large research institutions with the capacity to develop everything in-house. They are less suitable for universities that work more with external partners, because on the one hand they aggregate several dimensions, but are incomplete in this aggregation, especially for distributed development and distributed responsibility, which can lead to an unfortunate overall picture.\]\]
 
-<a id="3.2.4-application-classes"></a>
-### 3.2.4 Application Classes
-[Back to Conent](#toc)
+
+#### **3.2.4 Application Classes**
+
 
 Based on \[SMH18,SMH18b\], a scale of four application classes can be defined, which represent a rough, linearized classification of several metrics for software, current and planned use, and the developer base, and may not be suitable for critical software categories.  The explanations in this section are largely taken from \[SMH18,SMH18b\].
 
@@ -635,28 +634,31 @@ The application classes (ApC) help define appropriate measures for software qual
 
 This is followed by a subdivision into four application classes (0-3), in which the degree of quality and the necessary measures typically increase. The "focus" aspect is decisive for the classification; the scope and measures may change only partially in line with it.
 
-#### Application Class ApC0:
+
+**Definition Application classes**
+
+*Application Class ApC0:*
 
 * Focus: Personal use and no distribution of the software planned, isolated solutions for narrowly defined research content
 * Scope of the software: Low
 * Measures: Self-determined with consideration of good scientific practice
 * Example: Scripts for organizing your own data
 
-#### Application Class ApC1:
+*Application Class ApC1:*
 
 * Focus: Researchers not involved in the development should be able to use the software within a defined research framework
 * Scope of the software: Few functionalities or a small range of functions to be provided or further developed by the research institution
 * Measures: Aim of comprehensibility, traceability and reproducibility, i.e., among other things, that requirements and problems are set
 * Example: Data analysis scripts for publications; software from theses or projects that are not planned for long-term use
 
-#### Application Class ApC2:
+*Application Class ApC2:*
 
 * Focus: Longer-term further development and maintainability, usability for new scenarios, and a more extensive user group
 * Scope of the software: A Larger scope of the software to be provided and further developed by the \[\[university | research institution\]\] in the longer term
 * Measures: Constraints, requirements, and quality standards must be defined in an appropriate software architecture
 * Example: Frameworks that are relevant for several research groups
 
-#### Application Class ApC3:
+*Application Class ApC3:*
 
 * Focus: Research software that is relevant or critical for the institution, typically a high risk for the institution if the software malfunctions, and an extensive group of users who may be critically affected if the software is deficient
 * Scope of the software: Large scope with product character
@@ -667,7 +669,7 @@ This classification maps several criteria to four classes and leaves room for co
 
 Application classes provide a simple approach to categorizing research software to derive requirements for the development process. When assessing the class, they primarily use inherent characteristics and external requirements, e.g., criticality, potential users, or planned service life. This means that the criteria for assessing the application classes and the TRLs defined in \[DIN20\] are not congruent. For example, any software from ApC0 to ApC3 can achieve a TRL-9, but can also remain at TRL-3.
 
-\>\>\> For decision-makers  \<\<\<
+→→ For decision-makers  ←←
 
 The definition of the desired application class is a projection into the future and therefore depends on the planning of the decision-makers.
 
@@ -677,9 +679,9 @@ Step 4: Identify the desired application class.
 
 \[\[Variant 5\]\]
 
-<a id="3.2.5-status-of-the-software"></a>
-### 3.2.5 Status of the Software
-[Back to Conent](#toc)
+
+#### **3.2.5 Status of the Software**
+
 
 The following figure shows various states that a software or its development project can adopt, see \[YCF+24\]:
 
@@ -688,9 +690,9 @@ The following figure shows various states that a software or its development pro
 This approach can also contribute to the definition of development activities and methods.
 \[\[End of Variant 5\]\]
 
-<a id="3.2.6-other-factors"></a>
-### 3.2.6 Other factors
-[Back to Conent](#toc)
+
+#### **3.2.6 Other factors**
+
 
 Additional factors also influence the development process:
 
@@ -709,13 +711,13 @@ Additional factors also influence the development process:
 
 \[\[End of variant 6\]\]
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 
 The categorization of research software enables a better assessment of which software engineering tools are needed. It is important to note that the perspective of the person categorizing influences the categorization, because the definition of the target categories is a projection into the future and thus depends on the planning of the decision-makers.
 
-<a id="3.3-minimal-requirements-for-core-competencies,-development-processes-and-project-planning-in-software-development"></a>
-## 3.3 Minimal Requirements for Core Competencies, Development Processes and Project Planning in Software Development
-[Back to Conent](#toc)
+
+### **3.3 Minimal Requirements for Core Competencies, Development Processes and Project Planning in Software Development**
+
 
 The classifications mentioned above and in Appendix A, the planned future use, and the stakeholders involved (users, developers, and funding bodies) form the basis for the selection of the necessary software engineering practices to be applied. These address organizational, methodological, and technical measures to implement, further develop, and deploy the software. Such measures, therefore, offer **investment protection** and serve to **minimize risks** and preserve and pass on knowledge. In addition, specifications and acceptance criteria are derived for the creation of research software by external parties (e.g., software development companies) as well as specifications and evaluation criteria for student work. The practices introduced here are an elaboration of the guiding principles for the development of research software defined in \[DFG24\].
 
@@ -727,9 +729,9 @@ Step 5: Derive the necessary software engineering practices (see the following s
 
 The following catalogs are only an initial aid for such a collection of practices.
 
-<a id="3.3.1-minimum-requirements-for-the-technology-readiness-level-based-on-the-degree-of-utilization-(use)-and-the-kind-of-software-(kind)"></a>
-### 3.3.1 Minimum Requirements for the Technology Readiness Level based on the Degree of Utilization (Use) and the Kind of Software (Kind)
-[Back to Conent](#toc)
+
+#### **3.3.1 Minimum Requirements for the Technology Readiness Level based on the Degree of Utilization (Use) and the Kind of Software (Kind)**
+
 
 This section links the degree of utilization (Use) and kind of software (Kind) with the required TRLs and outlines the limitations of this assignment.
 
@@ -754,9 +756,9 @@ Any type of software can be mapped to any TRL. However, software should only be 
 | (Kind:Tool) | TRL-6+ | Software tools: Possibly higher if criticality is high. If the tool application is followed by another quality assurance of the result, a lower TRL-4/5 is also sufficient. |
 | (Kind:User) | TRL-9 | User apps: If external users use the software (e.g., as a mobile app), TRL-9 is relevant. GDPR, security, safety, and above all, user experience issues must be addressed here in particular. |
 
-<a id="3.3.2-minimum-requirements-for-rields-of-action-and-necessary-core-competencies-in-software-development-based-on-the-technology-readiness-level"></a>
-### 3.3.2 Minimum Requirements for Rields of Action and Necessary Core Competencies in Software Development based on the Technology Readiness Level
-[Back to Conent](#toc)
+
+#### **3.3.2 Minimum Requirements for Rields of Action and Necessary Core Competencies in Software Development based on the Technology Readiness Level**
+
 
 For software development, the SWEBOK (Software Engineering Body of Knowledge, \[BF14\]) is the essential reference for all activities, skills, valuable tools, and procedures to be observed.  Typical software engineering books (see above) are based on this and prepare the most important activities and core competencies for practical use.
 
@@ -785,20 +787,20 @@ Legend: 	?: possibly to be considered (depending on topic)
 \+: to be considered
 \++: to be strongly considered
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 Do the developers involved have the required core competencies in methodology and tooling? What training, further education, involvement of external/trained research software engineers makes sense? Are special manufacturer-specific certifications for developers necessary (and should these be addressed by different people)?
 
-<a id="3.4.-methodological-principles-of-software-development"></a>
-## 3.4 Methodological Principles of Software Development
-[Back to Conent](#toc)
+
+### **3.4 Methodological Principles of Software Development**
+
 
 The following section outlines the most important software engineering activities and software engineering core competencies for RSE. They do not replace real training. As a general rule, a skill requires practical experience to be used adequately and flexibly. Coaching by experienced employees or external support should be used whenever possible.
 
 Only the most important, more general methodological principles are discussed below. For more in-depth software engineering techniques, such as traceability, usability management, risk management, validation and verification, feasibility analyses, exploratory prototyping, etc., please refer to the software engineering literature and further training courses.
 
-<a id="3.4.1-software-engineering-processes"></a>
-### 3.4.1 Software Engineering Processes
-[Back to Conent](#toc)
+
+#### **3.4.1 Software Engineering Processes**
+
 
 \[SWEBOK: Software Engineering Process | Software Engineering Models and Methods\]
 
@@ -814,9 +816,9 @@ High agility is often most suitable for RSE: the goal and the solution path of t
 
 Short increments (so-called "sprints") of a few weeks iterate the development, working primarily on the code and on the simultaneously defined, automated tests \[Pic08\]. Common code ownership is achieved through a shared repository, minimal documentation overhead, refactoring to support incremental architecture maintenance, agile goal adaptation, and planning and change management support via tickets. There are now very good tools for this (see GitLab, GitHub, unit test frameworks, CI/CD).
 
-<a id="3.4.2-quality-management-(testing,-validation,-etc.)"></a>
-### 3.4.2 Quality Management (Testing, Validation, etc.)
-[Back to Conent](#toc)
+
+#### **3.4.2 Quality Management (Testing, Validation, etc.)**
+
 
 \[SWEBOK: Software Testing | Software Quality\]
 
@@ -827,9 +829,9 @@ Parts of product quality are difficult to measure. However, there is a strong co
 
 Depending on the type of software (Kind), TRLs and the level of criticality (see Appendix A), suitable quality objectives are defined in order to determine decisions for architecture, types of tests and their degree of automation, review processes, etc. Separate consideration is necessary for the quality assessment of third-party software to be integrated, such as libraries, as well as quality assurance in joint development processes without joint project management.
 
-<a id="3.4.3-understanding-requirements"></a>
-### 3.4.3 Understanding Requirements
-[Back to Conent](#toc)
+
+#### **3.4.3 Understanding Requirements**
+
 
 \[SWEBOK: Software Requirements\]
 
@@ -846,9 +848,9 @@ In addition to the identification and prioritization of requirements, the identi
 In RSE, requirements elicitation is intrinsically linked to the actual research process. This must be reflected in the selected development methodology. Agile development techniques are often a good fit because they handle changing requirements well and require little organizational overhead. Nothing leads to greater development efficiency than a good understanding of the requirements at an early stage. The size of the software and the team, as well as the criticality, determine the required level of precision in requirements management.
 Older forms of requirements engineering were based on specifications that had to be documented. In agile forms of requirements engineering, this has been replaced by communicative workshops and ticket collections.
 
-<a id="3.4.4-software-architecture"></a>
-### 3.4.4 Software Architecture
-[Back to Conent](#toc)
+
+#### **3.4.4 Software Architecture**
+
 
 \[SWEBOK: Software Design\]
 
@@ -856,9 +858,9 @@ Older forms of requirements engineering were based on specifications that had to
 
 **What is it?** Software architecture refers to the fundamental structures of a software system. These structures consist of the software components, their relationships, and their properties. Clear, unambiguous tasks for individual components, as well as minimal, clearly defined interfaces between components, are important. Accordingly, software architecture encompasses the decisions on the design and organization of a system that ensure the fulfillment of given requirements. Architecture is therefore a key driver of product quality. Software engineering offers architectural patterns and styles as reusable solutions for recurring problems \[Som18\]. Essential tools include separating software functions into components with loose coupling, defining stable interfaces for exclusive use by other components, and implementing explicit deprecation processes to remove old interfaces. Dedicated extensibility is promoted through the use of extension mechanisms such as hotspots in frameworks, template hook design patterns, and plug-in architectures. A project usually requires an authorized software architect. For details, please refer to the relevant literature \[Mar17, Fow19\]. For critical systems, separation/encapsulation into independent components also enables risk-adapted quality management.
 
-<a id="3.4.5-software-modeling"></a>
-### 3.4.5 Software Modeling
-[Back to Conent](#toc)
+
+#### **3.4.5 Software Modeling**
+
 
 \[SWEBOK: Software Engineering Models and Methods\]
 
@@ -866,17 +868,17 @@ Older forms of requirements engineering were based on specifications that had to
 
 **What is it?** The Unified Modeling Language (UML) provides a set of modeling languages for this purpose. UML models describe various aspects of software and are therefore suitable for designing, understanding, and maintaining its architecture, data structures, etc. They also help identify and resolve problems that arise more quickly. The industry-standard UML includes 14 model types, of which class and activity diagrams are most useful. Modeling tools help to create models, extract models from code, or generate code and test cases. Modern low-code/no-code methods and tools rely on explicitly formulated models to replace tedious, error-prone programming activities.
 
-<a id="3.4.6-versioning"></a>
-### 3.4.6 Versioning
-[Back to Conent](#toc)
+
+#### **3.4.6 Versioning**
+
 
 **Why is this important?** Versioning is the basis for collaboration, secure, loss-free management of work statuses, and promotes the traceability and reproducibility of research results. Versioning enables efficient release management, variant management (i.e., multiple software versions in use), and version histories, and thus provides a basis for quality analysis. Without versioning, it is challenging to systematically rectify any errors.
 
 **What is it?** Versioning software means that different versions of software are clearly identified and can be reconstructed at any time. This ensures the traceability and comparability of modified results, allowing them to be compared with older versions. Errors introduced at a later date can thus be identified, affected research results can be recognized, and causes of errors can be rectified. Collaborative work on the same code is significantly simplified by project-specific procedures for release planning, branch splitting for temporary work, and automated merge procedures. Versioning systems, therefore, also allow parallel work on different software versions. Versioning systems make changes between versions transparent and thus allow the differences between versions to be traced. Particularly in the publication process, versioning enables extended traceability of one's own results, e.g., when others repeat simulations during the review process, as well as reproducibility by external parties, provided that the versions used are also documented in the publication. Git is currently widely used as a version management tool (see Section 3.5.1). A distinction must be made between public services such as GitHub.com or GitLab.com and instances hosted locally at universities (e.g., GitLab), each of which has advantages and disadvantages, for example, when it comes to integration with publishing tools.
 
-<a id="3.4.7-test-concept-and-automation"></a>
-### 3.4.7 Test Concept and Automation
-[Back to Conent](#toc)
+
+#### **3.4.7 Test Concept and Automation**
+
 
 \[SWEBOK: Software Testing | Software Configuration Management\]
 
@@ -892,9 +894,9 @@ The following test types are usually distinguished for research software:
 
 The test concept lays the foundation for quality assurance and continuous integration. Automating tests is essential to run them regularly and reproduce test results under consistent conditions. Automated tests can also be set up directly to reproduce the published research results.
 
-<a id="3.4.8-management-of-software-related-data-and-data-basis"></a>
-### 3.4.8 Management of Software-related Data and Data Basis
-[Back to Conent](#toc)
+
+#### **3.4.8 Management of Software-related Data and Data Basis**
+
 
 \[SWEBOK: Data Persistence | Data Structures | Database Management | Data-Centered Design | Data Safety, Security, Integrity, Protection, and Controls | Data Privacy\]
 
@@ -906,9 +908,9 @@ In the area of research data management initiatives, a range of services and add
 
 \[\[Note for guideline authors: a detailed list of services, materials, support offered by your own research unit or the federal state or throughout Germany can be entered here or under Section 5.6, or alternatively (and thus more dynamically expandable) on the RSE page.\]\]
 
-<a id="3.4.9-best-practices,-design-patterns,-issue-tracking,-coding-guidelines"></a>
-### 3.4.9 Best Practices, Design Patterns, Issue Tracking, Coding Guidelines
-[Back to Conent](#toc)
+
+#### **3.4.9 Best Practices, Design Patterns, Issue Tracking, Coding Guidelines**
+
 
 \[SWEBOK: Computing Foundation | Software Construction | Software Design | Software Engineering Professional Practice | Software Configuration Management | Software Maintenance\]
 
@@ -929,15 +931,15 @@ In the area of research data management initiatives, a range of services and add
 * **Glossaries** are part of the documentation created at the beginning and allow different, possibly heterogeneous, groups of developers to develop a common language base. If the developer group is also set up across scientific disciplines, developing an ontology is a good idea.
 * **Clearly understanding the software and hardware stack** and making it reproducible. This may include using containers, clarifying all runtime environment dependencies, testing the software on different operating systems, using different compiler versions and variants/flags, and more.
 
-<a id="3.5.-technical-basics"></a>
-## 3.5 Technical Basics
-[Back to Conent](#toc)
+
+### **3.5 Technical Basics**
+
 
 The activities specified in a methodology are often closely linked to corresponding technical tools that automate large parts of the activities and thus make them applicable for repeated use. Tools are important aids for increasing efficiency. These include editors, compilers, workflow and pipeline managers with iterative, incremental execution logic, version management, refactoring tools, code analysis tools, model-based code generators, test metrics, etc. Choosing the right tools for the team is the task of the initial project setup. Here is a selection:
 
-<a id="3.5.1-git-version-control-system"></a>
-### 3.5.1 Git Version Control System
-[Back to Conent](#toc)
+
+#### **3.5.1 Git Version Control System**
+
 
 \[\[Note for guideline authors: Git is not the only version control system, but is currently so dominant and widespread that it is worth mentioning it explicitly here. Use of another system is, of course, possible.\]\]
 
@@ -961,18 +963,18 @@ In principle, repositories can also manage research data, but are not set up for
 
 \[\[End of Option\]\]
 
-<a id="3.5.2-continuous-integration/continuous-delivery"></a>
-### 3.5.2 Continuous Integration/Continuous Delivery
-[Back to Conent](#toc)
+
+#### **3.5.2 Continuous Integration/Continuous Delivery**
+
 
 **Why is this important?** Continuous Integration and Continuous Delivery (CI/CD) are software development practices in which code changes are regularly tested automatically in a shared environment and deployed to production to provide new features and updates quickly and reliably.
 These practices are important because they enable developers to develop and release software faster, more efficiently, and with less risk of errors by automating and optimizing the development and deployment process. They also promote a collaborative way of working that improves software quality and shortens time-to-market – here, research.
 
 **What can it do?** When a developer transfers the smallest possible self-contained development work into the product using the versioning system, the code is automatically compiled and the quality of the changes is checked, e.g., through necessary code analysis and automated tests (continuous integration). If successful, the software is updated as a snapshot for download or, in the case of web-based systems, for example, made directly available to the user (continuous deployment/delivery). GitLab and GitHub have integrated these approaches well through so-called "build pipelines".
 
-<a id="3.5.3-test-frameworks"></a>
-### 3.5.3 Test Frameworks
-[Back to Conent](#toc)
+
+#### **3.5.3 Test Frameworks**
+
 
 **Why is this important?** A test framework supports the efficient development and effective execution of automated tests. Good integration into the respective programming language significantly reduces the effort required to create test cases, so that automated tests can be written as simple methods/functions directly parallel to the actual development or even beforehand ("Test First" approach, "Test-Driven Development"). The xUnit frameworks for the corresponding programming languages (JUnit, unittest/pytest, cppunit, etc.) are particularly suitable for unit, integration, and system testing. For acceptance tests, there are also other frameworks that, for example, simulate GUI user interactions (e.g., Selenium).
 
@@ -980,9 +982,9 @@ These practices are important because they enable developers to develop and rele
 Supplementary test tools allow auxiliary structures to be set up for tests, such as mocks to emulate environmental components.
 The idea of "testing by automatic execution" can be extended to user documentation and (reproducible) research results with Jupyter Notebooks, for example \[BTK+21\].
 
-<a id="3.5.4-dissemination"></a>
-### 3.5.4 Dissemination
-[Back to Conent](#toc)
+
+#### **3.5.4 Dissemination**
+
 
 **Why is this important?** Software is knowledge cast in an executable form and must therefore be published as artifacts resulting from the scientific process, just like scientific texts and data. This corresponds to good scientific practice and, in part, to the requirements of research funding organizations. Open science and open source are closely interlinked conceptually.
 
@@ -993,9 +995,9 @@ A BibLaTeX software package \[DC20\] supports researchers in citing software as 
 
 \[\[Optional: Section 5 discusses publication support services provided by the institution.\]\]
 
-<a id="3.5.5-software-discovery"></a>
-### 3.5.5 Software Discovery
-[Back to Conent](#toc)
+
+#### **3.5.5 Software Discovery**
+
 
 **Why is this important?** The search for existing software or functionality can prevent unnecessary multiple developments, inspire alternative solutions to problems, and provide an overview of the current state of research.
 
@@ -1009,13 +1011,13 @@ The procurement of software or services, such as maintenance, is not part of thi
 
 \[\[Optional: Section 5 discusses software search and evaluation support services.\]\]
 
-<a id="4-granting-and-use-of-licenses-(legal-protection)"></a>
-# 4 Granting and Use of Licenses (Legal Protection)
-[Back to Conent](#toc)
+
+## **4. Granting and Use of Licenses (Legal Protection)**
+
 
 \[\[Note for guideline authors: The authors emphasize that this information does not constitute legal advice and serves only as a suggestion. Use this at your own risk – no liability is assumed. The information is as current as the date of the document and is not necessarily updated.\]\]
 
-\>\>\> For decision-makers \<\<\<
+→→ For decision-makers ←←
 
 To support the efficient development of research software that meets high-quality standards, \[\[the university | the research institution\]\] designs the regulatory framework and provides \[\[consulting, support, and training services\]\]. Advice and information cover all phases of the software life cycle, including the integration of third-party software and its subsequent use or transfer.
 
@@ -1039,9 +1041,9 @@ Research software that is to be used by several people, and possibly jointly dev
 
 The legal and organizational framework conditions of the \[\[university | research institution\]\] are set out in the form of guidelines in this document. In addition, concrete decision-making aids and best practice examples are provided.
 
-<a id="4.1.-scientific-exploitation-and-license-selection----general"></a>
-## 4.1.	Scientific Exploitation and License Selection \-- General
-[Back to Conent](#toc)
+
+### **4.1 Scientific Exploitation and License Selection \-- General**
+
 
 The \[\[university | research institution\]\] supports and advocates the publication of software as open source to contribute to a strengthening of "Open Science" and thus enable a more effective and open exchange of information within science and promote the transfer of results to society. Free exploitation by commercial enterprises, the administration, and others can also be useful.
 
@@ -1072,9 +1074,9 @@ In the case of software dependencies and when multiple parties contribute existi
 
 Regulations on the exploitation rights of the contributors to the software in cooperation projects can be defined in a Contributor License Agreement (CLA) or (more likely in special cases) an agreement on the transfer of exclusive exploitation rights in a Copyright Assignment Agreement (CAA). This enables software contributors to collaborate on projects and retain all exploitation rights, even when contributions are made by third parties, thereby simplifying subsequent relicensing. However, such regulations have a deterrent effect on contributors, as relicensing may not be in their interest. Furthermore, entering into such agreements involves administrative effort.
 
-<a id="4.2-notes-on-economic-utilization"></a>
-## 4.2 Notes on Economic Utilization
-[Back to Conent](#toc)
+
+### **4.2 Notes on Economic Utilization**
+
 
 Several influencing factors should be taken into account when choosing the licensing and, above all, the restrictions:
 
@@ -1088,15 +1090,15 @@ One of the usual and highly recommended marketing channels for software in today
 
 Software works differently from many other products when it comes to commercialization. In the field of software startups, there is intense and global competition, which is why "size before revenue" is prioritised. Investors are often needed on a large scale to make the software available as a robust product, who do not expect any returns over the first few years. Unfortunately, this is currently not very pronounced in Germany and is even more complex for the limited market of scientific software, which is why it is recommended to generate impact directly via open source licenses and, at best, to use dual licensing (see Section 4.3.4) or the open core approach for a startup. Revenue is not expected from the \[\[university | research institution\]\] in such a case.
 
-<a id="4.3-license-types"></a>
-## 4.3 License Types
-[Back to Conent](#toc)
+
+### **4.3 License Types**
+
 
 This section outlines permissive open-source licenses, copyleft open-source licenses, and proprietary licenses, and their effects on software usability. The Creative Commons licenses are not suitable for software and are therefore not covered in this section. \[CC24\]
 
-<a id="4.3.1-open-source-licenses"></a>
-### 4.3.1 Open Source Licenses
-[Back to Conent](#toc)
+
+#### **4.3.1 Open Source Licenses**
+
 
 The goal of open source licenses is to make source code available and promote collaboration among developers. Here are some key points that open source licenses cover \[OSI06\]:
 
@@ -1127,26 +1129,26 @@ It is strongly discouraged to define new licenses or to deviate from existing li
 New licenses or license changes must be agreed with the office of legal affairs or the legal department.
 \[\[End of variant A\]\]
 
-<a id="4.3.2-permissive-open-source-licenses"></a>
-### 4.3.2 Permissive Open Source Licenses
-[Back to Conent](#toc)
+
+#### **4.3.2 Permissive Open Source Licenses**
+
 
 Apache 2.0, MIT, and BSD are among the most popular permissive open-source licenses, each offering slightly different requirements and freedoms. They all allow the integration and use of code in proprietary projects. Here is a more detailed overview of each of these licenses:
 
-#### BSD 2-Clause License
+**BSD 2-Clause License**
 
 There are different variants of the BSD license, which contain different numbers of clauses:
 
 * **BSD 2-Clause License** (FreeBSD/Simplified): This version allows almost any use as long as the license text and the copyright notice are preserved.
 * **BSD 3-Clause License** (Modified/New BSD): This version is similar to the 2-Clause version, but with an additional clause prohibiting the use of the author's or organization's name for promotional purposes without prior written permission.
 
-#### MIT License
+**MIT License**
 
 This license only requires that the license text be included in all copies or substantial portions of the software. Essential features of the MIT license are:
 
 * **Simplicity and breadth:** It has very few restrictions, making it one of the most permissive licenses available.
 
-#### Apache License 2.0
+**Apache License 2.0**
 
 The Apache License 2.0 is administered by the Apache Software Foundation. The main features of the Apache license are
 
@@ -1158,13 +1160,13 @@ Other features include retention of attribution and legal notices in the license
 
 These licenses are all geared toward making the code easy to use and adapt, offering varying degrees of protection and requirements to meet the needs of different developers and organizations. In this sense, permissive licenses are also said to attempt to restrict the freedom of developers (as opposed to users; see copyleft) as little as possible.
 
-<a id="4.3.3-copyleft-open-source-licenses-(best-practice-examples)"></a>
-### 4.3.3 Copyleft Open Source Licenses (Best Practice Examples)
-[Back to Conent](#toc)
+
+#### **4.3.3 Copyleft Open Source Licenses (Best Practice Examples)**
+
 
 The GNU General Public License (GPL), the GNU Lesser General Public License (LGPL) and the GNU Affero General Public License (AGPL) are three related but differently oriented licenses published by the Free Software Foundation \[FSF19\]. Each of these licenses grants rights similar to those of permissive licenses but imposes specific conditions to protect users' freedoms, i.e., ensuring that the code and its derivatives remain freely accessible. The licenses reflect varying degrees of freedom and protection in the open-source space. They are designed to meet the needs of different development models, from single libraries to full applications running on servers or in the cloud. Here is an explanation of each of these three licenses:
 
-#### GNU General Public License (GPL) Version 3
+**GNU General Public License (GPL) Version 3**
 
 The GPL v3 is a copyleft license that, like all open-source licenses, allows everyone to use, study, share (copy), and modify the software. If a work derived from it is distributed, it must be distributed under the same license, meaning the source code and its modifications remain accessible. Key features of the GPL v3 are:
 
@@ -1172,23 +1174,23 @@ The GPL v3 is a copyleft license that, like all open-source licenses, allows eve
 * **Protection against tivoization**: The license prohibits that measures are taken so that modified versions cannot be used (for example, hardware that prevents the execution of modified versions).
 * **Patent rights**: The GPL v3.0 explicitly grants patent licenses from the contributors to all users of the software, which prevents patent lawsuits.
 
-#### GNU Lesser General Public License (LGPL)
+**GNU Lesser General Public License (LGPL)**
 
 The LGPL is a less strict version of the GPL v3.0, developed specifically for software libraries. While GPL-licensed software requires that any derivative work be licensed under the GPL when redistributed, the LGPL allows libraries to be used in non-free programs as long as changes to the LGPL component itself remain under the LGPL. Key features of the LGPL are:
 
 * **Weak copyleft**: Only the LGPL component itself must remain under the LGPL for modifications; the entire program can be under a different license.
 * **Promotion of use**: It enables the use of open source libraries in otherwise proprietary, non-free software projects.
 
-#### GNU Affero General Public License (AGPL)
+**GNU Affero General Public License (AGPL)**
 
 The AGPL is very similar to the GPL, but adds an important clause specifically intended for software that runs over a network, such as web applications or cloud services. Key features of the AGPL are:
 
 * **Network clause**: Any modified version of the software that is made available to other users over a network must make its source code available under the AGPL. This includes software that runs on a server and is made available to users via the Internet.
 * **Protection of user freedom**: This license is intended to ensure that users of network-based applications have the same freedom they would have if they were running the software directly on their own computers.
 
-<a id="4.3.4-proprietary-licenses"></a>
-### 4.3.4 Proprietary Licenses
-[Back to Conent](#toc)
+
+#### **4.3.4 Proprietary Licenses**
+
 
 If a more individual license is desired, e.g., because the distribution of the code or the type of use of the software is to be restricted, the \[\[university | research institution\]\] recommends either using only a single proprietary license or offering such a license in addition to an open source license in dual licensing.
 
@@ -1200,9 +1202,9 @@ However, caution is advised when using software under a dual license. If researc
 
 The drafting and negotiation of any license agreements that grant proprietary use is the responsibility of the \[\[university | research institution\]\] and is the responsibility of \[\[Corporate Development | Legal Department | External Funding Department | Transfer Department\]\]. If proprietary licensing is desired, the \[\[university | research institution\]\] will discuss possible licensing conditions, contractual framework conditions, the intellectual property situation, etc., and draw up a corresponding license agreement. The \[\[university | research institution\]\] can draw up a proposal or use a template.
 
-<a id="4.4-consulting-services-and-procedure-for-selection"></a>
-## 4.4 Consulting Services and Procedure for Selection
-[Back to Conent](#toc)
+
+### **4.4 Consulting Services and Procedure for Selection**
+
 
 \[\[Option A: if consulting support is available\]\]
 
@@ -1224,15 +1226,15 @@ Software can be published under an open source license if (1) no third-party rig
 
 In the case of joint software development in large communities whose parties contribute existing software to the collaboration, all parties should agree on a joint license. The in-house legal department will provide support here if required.
 
-<a id="4.5.-use-of-third-party-software"></a>
-## 4.5. Use of Third-Party Software
-[Back to Conent](#toc)
+
+### **4.5 Use of Third-Party Software**
+
 
 If the developed software contains components or pieces of code written by third parties, these are protected by copyright and, in most cases, will already have a license. If no license has been issued, no rights are granted. The component or code may therefore not be used. There is a risk that the rights holder will claim damages from the user of unlicensed software.
 
-<a id="4.5.1-rights-and-obligations-through-licenses"></a>
-### 4.5.1 Rights and Obligations through Licenses
-[Back to Conent](#toc)
+
+#### **4.5.1 Rights and Obligations through Licenses**
+
 
 Like any contract, licenses regulate rights and obligations, as described in Section 4.3 with examples of standard open source licenses. It is important to always keep an eye on and comply with the obligations in addition to the permitted use.
 
@@ -1242,9 +1244,9 @@ Under open source licenses, the obligations only apply when the software is pass
 
 Nevertheless, the license should already be taken into account when deciding to install third-party software, as it affects the possibility of passing the software on.
 
-<a id="4.5.2-compatibility-of-licenses"></a>
-### 4.5.2 Compatibility of Licenses
-[Back to Conent](#toc)
+
+#### **4.5.2 Compatibility of Licenses**
+
 
 When using software components with different licenses, the compatibility of all licenses must be ensured. At the latest, in the case of distribution or publication, this can lead to competing obligations. In simple terms, it can be said that the intersection of all rights can be used, and the sum of all obligations must be complied with. For example, the combination of components under permissive and strong copyleft does not exempt the entire result from being published under strong copyleft. Similarly, a single component that does not permit publication of its source code prevents publication of the source code as a complete package.
 
@@ -1252,11 +1254,11 @@ A thorough check is necessary in any case, as even open source licenses can be i
 
 In case of doubt, we recommend consulting the contact persons listed on the RSE website of the \[\[university | research institution\]\].
 
-<a id="5.-support-services-by-the-[[university-|-research-institution]]"></a>
-# 5. Support Services by the \[\[University | Research institution\]\]
-[Back to Conent](#toc)
 
-\>\>\> For decision-makers \<\<\<
+## **5. Support Services by the \[\[University | Research institution\]\]**
+
+
+→→ For decision-makers ←←
 
 Software is a central component of academic research. Within the \[\[university | research institution\]\], it is usually the responsibility of \[\[institutes | chairs | research facilities\]\]. In the development of research software, the \[\[university | research institution\]\] plays the essential role of creating structures and services that support the development.
 
@@ -1287,9 +1289,9 @@ The following basic text for the selection and design of corresponding texts was
 
 Existing infrastructure, such as the library, the computer center, legal advice, and other research-related services, such as existing consulting and training services on research data management or high-performance computing, will be integrated into the implementation of the guideline. The central coordinating point of contact is the \[\[RSE Center | RSE Facility | Computing Center | Library | Legal Advisory Service | Innovation Office | ...\]\].
 
-<a id="5.1-personnel-support-for-the-creation-and-expansion-of-research-software"></a>
-## 5.1 Personnel Support for the Creation and Expansion of Research Software
-[Back to Conent](#toc)
+
+### **5.1 Personnel Support for the Creation and Expansion of Research Software**
+
 
 The \[\[university | research institution\]\] offers researchers consulting and direct support services in the following areas
 
@@ -1310,7 +1312,7 @@ The optional establishment of a decentralized pool of research software engineer
 
 By supporting the research software engineers, the \[\[university | research institution\]\] recognizes the importance of RSE in software-based, high-quality research and enables a transfer of knowledge, both within \[\[the RSE Center | the group of research software engineers\]\] at the \[\[university | research institution\]\], and beyond that from the research software engineers to the researchers. The knowledge on the topic of RSE is thus managed by the \[\[university | research institution\]\] and is better preserved even in the event of personnel changes.
 
-\>\>\> For decision-makers and managers \<\<\<
+→→ For decision-makers and managers ←←
 The leaders of the research groups are encouraged to enable their research software engineers to participate in local community events and to actively support the exchange of research software engineers between the research groups and the experts available at the \[\[university | research institution\]\].
 
 Networking gives the research groups access to a broader range of knowledge and expertise that they can draw on in their day-to-day research.
@@ -1327,9 +1329,9 @@ For concrete personnel support of RSE projects, the \[\[university | research in
 
 Up-to-date information on services, contacts and information aids can be found on the RSE website: \[\[https://research-se.X-university.de\]\]
 
-<a id="5.2-support-services-for-the-long-term-maintenance-of-software"></a>
-## 5.2 Support Services for the Long-term Maintenance of Software
-[Back to Conent](#toc)
+
+### **5.2 Support Services for the Long-term Maintenance of Software**
+
 
 \[\[Variant Center\]\]
 
@@ -1341,9 +1343,9 @@ The desired lifetime of the software is often significantly longer than the fina
 
 \[\[End of Variant Center\]\]
 
-<a id="5.3-support-services-in-continuing-education"></a>
-## 5.3 Support Services in Continuing Education
-[Back to Conent](#toc)
+
+### **5.3 Support Services in Continuing Education**
+
 
 Further training opportunities for developers can be found on the RSE website mentioned above.
 
@@ -1351,9 +1353,9 @@ The training courses include entry-level topics such as introduction to programm
 
 The possibility of taking advantage of many of these training opportunities as a student to receive a sound education as a research software engineer, in combination with the actual research domain, is pointed out. Not only students but also doctoral students and postdocs can acquire \[\[internal to scientifically or industrially recognized\]\] certificates and thus strengthen their position and perception as research software engineers. Details can be found on the RSE website \[\[https://research-se.X-university.de\]\] or the website \[\[of the Center for Teaching and Education | of the Doctoral Graduate School\]\].
 
-<a id="5.4-appreciation-of-the-research-software-engineers"></a>
-## 5.4 Appreciation of the Research Software Engineers
-[Back to Conent](#toc)
+
+### **5.4 Appreciation of the Research Software Engineers**
+
 
 The \[\[university | research institution\]\] supports the recognition of the achievements of research software engineers, i.e., people who professionally develop, operate, enhance, and maintain research software, and who dedicate part or all of their academic effort to research software. Many research software engineers are themselves creators of knowledge and are planning an academic career in their own field. Appreciation of the efforts of these research software engineers is therefore also important and benefits this specialist area.
 
@@ -1373,15 +1375,15 @@ The \[\[university | research institution\]\] supports the recognition of the ac
 
 \[\[End of expansion\]\]
 
-<a id="5.5-support-services-for-licenses"></a>
-## 5.5 Support Services for Licenses
-[Back to Conent](#toc)
+
+### **5.5 Support Services for Licenses**
+
 
 Section 4.4. explains the support services for license selection. Contact persons and recommendations can be found on the RSE website.
 
-<a id="5.6-support-services-through-technical-services"></a>
-## 5.6 Support Services through Technical Services
-[Back to Conent](#toc)
+
+### **5.6 Support Services through Technical Services**
+
 
 Technical services are essentially software services, computing capacities, and computer infrastructure that are operated, maintained, and made available free of charge or at one's own expense, and can be used for scientific software development. On the one hand, internal infrastructure and support for the data center are provided here; on the other hand, in compliance with the GDPR and other security requirements, certain internet services can be used for scientific purposes.
 
@@ -1417,13 +1419,13 @@ Technical services are essentially software services, computing capacities, and 
 The list of services can also be found on the RSE website mentioned above.
 There are also additional discipline-specific services.
 
-<a id="5.7-financing-of-support-services-for-the-development-and-maintenance-of-software"></a>
-## 5.7 Financing of Support Services for the Development and Maintenance of Software
-[Back to Conent](#toc)
+
+### **5.7 Financing of Support Services for the Development and Maintenance of Software**
+
 
 \[\[Note for guideline authors/university management: The specific organization of the support service and its financing is the responsibility of the university/research institution, possibly in coordination with the state and federal government. Examples exist in the Netherlands (eScience Center), UK (Sustainable Software Institute), but are organized across universities.\]\]
 
-\>\>\> For decision-makers and managers \<\<\<
+→→ For decision-makers and managers ←←
 The \[\[university | research institution\]\] is aware that the development, maintenance and further development of software, similar to technical infrastructure (e.g., buildings, facilities), unlike passive, collected data, requires considerable effort, especially in terms of personnel.
 
 \[\[Variant Center\]\]
@@ -1436,23 +1438,23 @@ The RSE Center provides these experts in the field of scientific and technical s
 
 The following options are available for financing RSE experts:
 
-<a id="5.7.1-transfer-to-rse-center-costs-(-university-software-)"></a>
-### 5.7.1 Transfer to RSE Center Costs ("University Software")
-[Back to Conent](#toc)
+
+#### **5.7.1 Transfer to RSE Center Costs ("University Software")**
+
 
 The original research institution submits an application (see application form) to the RSE Center to take over software maintenance. Depending on the classifications described in Section 3 (above all TRL, degree of utilization) and other criteria, such as the quality and comprehensibility of the software and the strategic relevance for the \[\[university | research institution\]\], the affordable quantity of procurements for 5 years in each case is taken over annually from the quantity of applications submitted. A new decision is made at the end of the 5 years. The selection is made by the RSE selection committee.
 
-<a id="5.7.2-acquisition-at-the-expense-of-the-research-unit-(-institute-software-)"></a>
-### 5.7.2 Acquisition at the Expense of the Research Unit ("Institute Software")
-[Back to Conent](#toc)
+
+#### **5.7.2 Acquisition at the Expense of the Research Unit ("Institute Software")**
+
 
 The RSE Center contributes substantial human resources to maintenance, further development, bug-fixing, and management. However, these resources are financed by one or more institutes/research units. Given the anticipated large number of potential projects, the RSE selection committee must also select based on availability and thematic expertise.
 
 It is possible to integrate the resources to be booked here in (1) appointment or tenure negotiations, (2) research proposals to the DFG, EU, BMBF, etc., (3) foundations, or (4) directly from R\&D contracts with industrial clients. In particular, the DFG guidelines on the use of research software \[DFG22\] for funding activities are worth noting.
 
-<a id="5.7.3-design-of-the-support"></a>
-### 5.7.3 Design of the Support
-[Back to Conent](#toc)
+
+#### **5.7.3 Design of the Support**
+
 
 Irrespective of funding, there are a number of organizational design options for consultation between the RSE Center and the research unit(s):
 
@@ -1463,9 +1465,9 @@ Irrespective of funding, there are a number of organizational design options for
 
 \[\[End of Variant Center\]\]
 
-<a id="5.8-other-support-services"></a>
-## 5.8 Other Support Services
-[Back to Conent](#toc)
+
+### **5.8 Other Support Services**
+
 
 Other support services offered by the \[\[university | research institution\]\] include:
 
@@ -1477,9 +1479,9 @@ Other support services offered by the \[\[university | research institution\]\] 
 
 \[\[6\. Further points supplemented by the university | research institution.\]\]
 
-<a id="references"></a>
-# References
-[Back to Conent](#toc)
+
+## **References**
+
 
 \[Bal25\]	Helmut Balzert, Christof Ebert. Lehrbuch der Softwaretechnik. Springer-Verlag, 2025 (Neue Auflage, in Erscheinung).
 
@@ -1571,9 +1573,9 @@ DLR Software Engineering Guidelines. Technical report, August. 2018\. Zenodo. [h
 
 \[YCF+24\]	Yo Yehudi, Mikaela Cashman, Michael Felderer, Michael Goedicke, Wilhelm Hasselbring, Daniel S. Katz, Frank Löffler, Sebastian Müller and Bernhard Rumpe. Towards Defining Lifecycles and Categories of Research Software, 2024\.
 
-<a id="appendix-a--categorization-options"></a>
-# Appendix A: Categorization Options
-[Back to Conent](#toc)
+
+## **Appendix A: Categorization Options**
+
 
 A detailed list of other usable categorization options that can help to clarify the measures required in development:
 
@@ -1586,7 +1588,7 @@ A detailed list of other usable categorization options that can help to clarify 
 |  | Users outside your own organization |
 |  | Global, diverse |
 |  |  |
-| **Developmentcommunity** | Personal |
+| **Development community** | Personal |
 |  | Team-Internal |
 |  | Across teams, within an organization |
 |  | Developers outside their own organization |
@@ -1605,9 +1607,9 @@ Another important categorization addresses the application domain of the softwar
 
 A fine-grained categorization serves other purposes beyond the selection of suitable development methods. It enables a more precise appreciation of the software and its developers. It also facilitates the evaluation of externally developed research software and supports decision-making processes when selecting such software. Furthermore, categorization helps better estimate the resources required for long-term development.
 
-<a id="appendix-b--checklist-for-the-transfer-of-software"></a>
-# Appendix B: Checklist for the Transfer of Software
-[Back to Conent](#toc)
+
+## **Appendix B: Checklist for the Transfer of Software**
+
 
 The following checklist serves as a basis for the definition and transfer of software licenses, assuming that the software is developed entirely within the \[\[university | research institution\]\]. In the case of external participants with their own interests in software licenses, a joint approach makes sense.
 
@@ -1653,8 +1655,7 @@ The following checklist serves as a basis for the definition and transfer of sof
 |  ☐ | **For open source software licenses:** The text of the selected license has been read and understood, and fits the target group and the objective of the transfer. **If no:** |
 | ☐ | Consultation was held with the contact persons at the \[\[university \| research institution\]\] regarding a proprietary license.  |
 
-<a id=""></a>
-## Explanations of the Checklist
+**Explanations of the Checklist**
 
 Two aspects are in the foreground from a legal perspective. Existing rights of the \[\[university | research institution\]\] to the software before licensing and the rights that a third party is to receive through licensing.
 
@@ -1666,9 +1667,9 @@ Software may be subject to export controls if it can be used in a critical form 
 
 If some of the questions cannot be answered satisfactorily, it is advisable to seek advice from the contact persons listed on the RSE website of the \[\[university | research institution\]\].
 
-<a id="appendix-c--principles-and-contributors"></a>
-# Appendix C: Principles and Contributors
-[Back to Conent](#toc)
+
+## **Appendix C: Principles and Contributors**
+
 
 These guidelines were developed on the basis of the
 
