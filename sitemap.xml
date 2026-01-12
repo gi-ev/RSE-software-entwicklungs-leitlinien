@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien/</loc>
-         <lastmod>2025-02-14</lastmod>
+         <lastmod>2026-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien/RSE_Leitlinien_Softwareentwicklung-en-US/</loc>
+         <lastmod>2026-01-12</lastmod>
+    </url>
+    <url>
+         <loc>https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien/RSE_Leitlinien_Softwareentwicklung/</loc>
+         <lastmod>2026-01-12</lastmod>
     </url>
     <url>
          <loc>https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien/glossar/</loc>
-         <lastmod>2025-02-14</lastmod>
+         <lastmod>2026-01-12</lastmod>
     </url>
 </urlset>
