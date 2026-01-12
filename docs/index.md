@@ -1,9 +1,3 @@
----
-hide:
-    - toc
-    - navigation
----
-
 # A guidelines and policy template for the development of research software at German research institutions
 ### A recommendation by GI, RSE working group and de-RSE
 
@@ -20,6 +14,13 @@ It is planned to regularly update these guidelines and incorporate new insights.
 The authors propose these guidelines as a template to aid universities, colleges, and research institutions in the adaptation of fundamental policies and recommendations for research projects involving research software.
 
 [View Guidelines](https://doi.org/10.18420/2025-gi_de-rse){.md-button} (DOI: 10.18420/2025-gi_de-rse)
+
+### Current Versions of the Guideline
+
+- [German Version v1.0](RSE_Leitlinien_Softwareentwicklung.md)
+- [English Version v1.0](RSE_Leitlinien_Softwareentwicklung-en-US.md)
+
+- [Known Issues and Features to be added in the subsequent version 1.1](https://github.com/gi-ev/RSE-software-entwicklungs-leitlinien/issues?q=is%3Aissue%20state%3Aopen%20label%3Av1.1)
 
 # Purpose
 

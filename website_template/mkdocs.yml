@@ -7,13 +7,13 @@ theme:
     - navigation.footer
 
 copyright: 'Example RSE Website - &copy; Software Guidelines workin group, CC0 1.0 deed'
-    
+
 markdown_extensions:
   - attr_list
 
 extra:
   social:
-    - icon: fontawesome/brands/github 
+    - icon: fontawesome/brands/github
       link: https://github.com/gi-ev/RSE-software-entwicklungs-leitlinien
 
 # page tree

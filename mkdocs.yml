@@ -1,16 +1,26 @@
-site_name: RSE-Software Entwicklungs Leitlinien
+site_name: Research Software Development Guidelines
 site_url: https://gi-ev.github.io/RSE-software-entwicklungs-leitlinien
 theme:
   name: material
   features:
+    - search.highlight
+    - navigation.instant
+    - navigation.top
     - navigation.footer
+    - navigation.expand
+    - navigation.hide
 
 copyright: '&copy; Software Guidelines workin group, CC0 1.0 deed'
-    
+
 markdown_extensions:
   - attr_list
-    
+  - toc:
+      permalink: true
+      toc_depth: 3
+
 # page tree
 nav:
   - Home: index.md
   - Glossary: glossar.md
+  - Guidelines (in German): RSE_Leitlinien_Softwareentwicklung.md
+  - Guidelines (in English): RSE_Leitlinien_Softwareentwicklung-en-US.md
